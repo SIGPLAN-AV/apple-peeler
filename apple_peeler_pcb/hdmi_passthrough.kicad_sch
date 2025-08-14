@@ -1385,6 +1385,12 @@
 		(uuid "d96ee715-1858-494e-a762-e22e1d8e8ee9")
 	)
 	(junction
+		(at 194.31 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db0b19d3-59d5-42e6-a681-9f96ae52698a")
+	)
+	(junction
 		(at 132.08 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1428,6 +1434,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 153.67) (xy 238.76 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "123c4208-faf8-4012-b9fc-7ad5cfd22409")
+	)
+	(wire
+		(pts
 			(xy 139.7 124.46) (xy 154.94 124.46)
 		)
 		(stroke
@@ -1458,7 +1474,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 124.46) (xy 238.76 124.46)
+			(xy 234.95 125.73) (xy 238.76 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1475,6 +1491,16 @@
 			(type default)
 		)
 		(uuid "2b65bb60-971e-4333-9466-0a10898de781")
+	)
+	(wire
+		(pts
+			(xy 238.76 123.19) (xy 234.95 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ec7c68a-31b5-4014-bba7-ea71bcfe98af")
 	)
 	(wire
 		(pts
@@ -1528,17 +1554,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 157.48) (xy 132.08 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48823691-48d0-4140-8e0d-94fee4190537")
-	)
-	(wire
-		(pts
-			(xy 162.56 168.91) (xy 162.56 162.56)
+			(xy 162.56 168.91) (xy 162.56 157.48)
 		)
 		(stroke
 			(width 0)
@@ -1608,7 +1624,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 69.85) (xy 194.31 157.48)
+			(xy 194.31 69.85) (xy 194.31 152.4)
 		)
 		(stroke
 			(width 0)
@@ -1638,7 +1654,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 157.48) (xy 194.31 157.48)
+			(xy 170.18 152.4) (xy 194.31 152.4)
 		)
 		(stroke
 			(width 0)
@@ -1675,6 +1691,16 @@
 			(type default)
 		)
 		(uuid "78cc65fa-4adc-4030-ad65-fb00fd8fa4d5")
+	)
+	(wire
+		(pts
+			(xy 86.36 125.73) (xy 90.17 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79c4abde-a17d-4521-9de0-aba88b63f3eb")
 	)
 	(wire
 		(pts
@@ -1778,7 +1804,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 157.48) (xy 132.08 157.48)
+			(xy 154.94 152.4) (xy 132.08 152.4)
 		)
 		(stroke
 			(width 0)
@@ -1795,6 +1821,16 @@
 			(type default)
 		)
 		(uuid "a26775c5-8a87-4a93-b7fd-cb9e7b47408e")
+	)
+	(wire
+		(pts
+			(xy 234.95 151.13) (xy 238.76 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8f0ae62-f21e-493f-8210-5347177b0889")
 	)
 	(wire
 		(pts
@@ -1908,7 +1944,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 124.46) (xy 90.17 124.46)
+			(xy 86.36 123.19) (xy 90.17 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1935,6 +1971,16 @@
 			(type default)
 		)
 		(uuid "f0902ceb-5589-46c3-a3ea-c4e3d6f1b326")
+	)
+	(wire
+		(pts
+			(xy 194.31 152.4) (xy 203.2 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4561a53-9c1e-452f-9970-062730919813")
 	)
 	(wire
 		(pts
@@ -1979,7 +2025,7 @@
 	)
 	(hierarchical_label "HPD_SRC_ASSERT"
 		(shape input)
-		(at 86.36 124.46 180)
+		(at 86.36 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1988,7 +2034,7 @@
 		)
 		(uuid "14ca43c0-9dd4-4b78-8cbd-b409e60dcecd")
 	)
-	(hierarchical_label "CEC_PULLDOWN"
+	(hierarchical_label "CEC_SRC_PULLDOWN"
 		(shape input)
 		(at 86.36 153.67 180)
 		(effects
@@ -1998,6 +2044,17 @@
 			(justify right)
 		)
 		(uuid "2b54be82-19af-49ed-b01b-1a78b9c45f38")
+	)
+	(hierarchical_label "CEC_SINK_PULLDOWN"
+		(shape input)
+		(at 238.76 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "371d07ef-a1f2-425d-bdad-30bb9f50d3d8")
 	)
 	(hierarchical_label "SCL_BRIDGE"
 		(shape input)
@@ -2021,7 +2078,7 @@
 		)
 		(uuid "577f354e-a4a5-48c8-baea-05dbc5065d0f")
 	)
-	(hierarchical_label "CEC_MON"
+	(hierarchical_label "CEC_SRC_MON"
 		(shape output)
 		(at 86.36 151.13 180)
 		(effects
@@ -2056,7 +2113,7 @@
 	)
 	(hierarchical_label "HPD_SINK_MON"
 		(shape output)
-		(at 238.76 124.46 0)
+		(at 238.76 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2064,6 +2121,17 @@
 			(justify left)
 		)
 		(uuid "84895901-1389-4e49-8a72-324c339d96dd")
+	)
+	(hierarchical_label "CEC_SINK_MON"
+		(shape output)
+		(at 238.76 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "949f4413-7f6f-46f1-877e-e34987a0e7d9")
 	)
 	(hierarchical_label "SDA_SINK_3V3"
 		(shape bidirectional)
@@ -2075,6 +2143,17 @@
 			(justify left)
 		)
 		(uuid "a72d5ddb-820b-47cc-b819-c31064385499")
+	)
+	(hierarchical_label "HPD_SRC_MON"
+		(shape output)
+		(at 86.36 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b53769d4-fc48-4100-821c-876d93f994f7")
 	)
 	(hierarchical_label "SDA_SRC_3V3"
 		(shape bidirectional)
@@ -2108,6 +2187,17 @@
 			(justify right)
 		)
 		(uuid "d4e2bb4e-b3b0-42c5-b4e5-8d849b962b76")
+	)
+	(hierarchical_label "HPD_SINK_ASSERT"
+		(shape input)
+		(at 238.76 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dc619baf-d0ec-439b-b648-c9ee36bb9e6b")
 	)
 	(hierarchical_label "HDMI_VCC"
 		(shape output)
@@ -2503,7 +2593,7 @@
 	)
 	(symbol
 		(lib_id "Analog_Switch:CD4066BE")
-		(at 162.56 157.48 0)
+		(at 162.56 152.4 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2511,7 +2601,7 @@
 		(dnp no)
 		(uuid "62c124e0-0212-4f71-86d6-aebb6c5fb82a")
 		(property "Reference" "U3"
-			(at 158.75 158.75 0)
+			(at 158.75 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2520,7 +2610,7 @@
 			)
 		)
 		(property "Value" "4066"
-			(at 166.37 158.75 0)
+			(at 166.37 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2529,7 +2619,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
-			(at 162.56 160.02 0)
+			(at 162.56 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2538,7 +2628,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4066b.pdf"
-			(at 162.56 157.48 0)
+			(at 162.56 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2547,7 +2637,7 @@
 			)
 		)
 		(property "Description" "Quad 20V analog SPST 1:1 switch, DIP-14"
-			(at 162.56 157.48 0)
+			(at 162.56 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2556,7 +2646,7 @@
 			)
 		)
 		(property "LCSC" "C512770"
-			(at 162.56 157.48 0)
+			(at 162.56 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2565,7 +2655,7 @@
 			)
 		)
 		(property "MPN" "CD4066BM/TR"
-			(at 162.56 157.48 0)
+			(at 162.56 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3034,6 +3124,150 @@
 		)
 	)
 	(sheet
+		(at 203.2 121.92)
+		(size 31.75 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "207d6e2c-5657-4cae-9098-bf31bbf0eeb3")
+		(property "Sheetname" "HPD manager1"
+			(at 203.2 121.2084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "hpd_manager.kicad_sch"
+			(at 203.2 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ASSERT" input
+			(at 234.95 123.19 0)
+			(uuid "c83daefc-9808-498a-8fd4-89ab114a649e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HPD_LINE" input
+			(at 203.2 124.46 180)
+			(uuid "11eed4b9-670c-4c1e-9633-11090f27a69a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MON" output
+			(at 234.95 125.73 0)
+			(uuid "2751f2dc-37cb-4b1e-b7eb-73241496cffc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "apple_peeler_pcb"
+				(path "/d5946b96-44a8-4a28-8641-19803e1510af/ab4760da-4146-4688-a275-418314974b55"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 90.17 121.92)
+		(size 31.75 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "216077bc-1e97-451f-9a4f-0a4e0691e85e")
+		(property "Sheetname" "HPD manager"
+			(at 90.17 121.2084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "hpd_manager.kicad_sch"
+			(at 90.17 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ASSERT" input
+			(at 90.17 123.19 180)
+			(uuid "550aca45-1092-4bd0-b838-8715689b66de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HPD_LINE" input
+			(at 121.92 124.46 0)
+			(uuid "da86472d-7125-4794-bc1a-d07b7eb346aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MON" output
+			(at 90.17 125.73 180)
+			(uuid "7e5b03a6-c311-4862-a8b8-0ee1f071b480")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "apple_peeler_pcb"
+				(path "/d5946b96-44a8-4a28-8641-19803e1510af/ab4760da-4146-4688-a275-418314974b55"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 128.27 36.83)
 		(size 69.85 33.02)
 		(exclude_from_sim no)
@@ -3242,68 +3476,6 @@
 			(project "apple_peeler_pcb"
 				(path "/d5946b96-44a8-4a28-8641-19803e1510af/ab4760da-4146-4688-a275-418314974b55"
 					(page "11")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 90.17 121.92)
-		(size 31.75 5.08)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "6046dcba-ade8-41f9-96d2-caaf24154fd4")
-		(property "Sheetname" "High-side switch"
-			(at 90.17 121.2084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "high_side_switch.kicad_sch"
-			(at 90.17 127.5846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "IN_3.3V" input
-			(at 90.17 124.46 180)
-			(uuid "cec760b8-5880-4723-b1bf-e09210d985b1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "OUT_5V" output
-			(at 121.92 124.46 0)
-			(uuid "2827061c-e453-4ef5-9da6-d6d5c1cde83d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "apple_peeler_pcb"
-				(path "/d5946b96-44a8-4a28-8641-19803e1510af/ab4760da-4146-4688-a275-418314974b55"
-					(page "10")
 				)
 			)
 		)
@@ -3629,6 +3801,78 @@
 		)
 	)
 	(sheet
+		(at 203.2 148.59)
+		(size 31.75 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9898d91a-fb1c-440b-9509-02fc004394d7")
+		(property "Sheetname" "CEC interface1"
+			(at 203.2 147.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cec_interface.kicad_sch"
+			(at 203.2 156.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CEC_LINE" bidirectional
+			(at 203.2 152.4 180)
+			(uuid "a7a8b2d3-2096-4dad-8873-a75a5feabd6f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CEC_MON" output
+			(at 234.95 151.13 0)
+			(uuid "df6704d2-1cb2-44cb-aaea-cd13f45da525")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CEC_PULLDOWN" input
+			(at 234.95 153.67 0)
+			(uuid "7dbc9ca8-18a5-4dd3-980e-770cbc585307")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "apple_peeler_pcb"
+				(path "/d5946b96-44a8-4a28-8641-19803e1510af/ab4760da-4146-4688-a275-418314974b55"
+					(page "25")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 90.17 110.49)
 		(size 31.75 5.08)
 		(exclude_from_sim no)
@@ -3872,68 +4116,6 @@
 			(project "apple_peeler_pcb"
 				(path "/d5946b96-44a8-4a28-8641-19803e1510af/ab4760da-4146-4688-a275-418314974b55"
 					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 203.2 121.92)
-		(size 31.75 5.08)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "fec152a4-11e6-4915-b614-693f728bc57e")
-		(property "Sheetname" "Line sense"
-			(at 203.2 121.2084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "line_sense.kicad_sch"
-			(at 203.2 127.5846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "IN" input
-			(at 203.2 124.46 180)
-			(uuid "bacb4e40-ce91-457b-ba99-7cb3e66ed8e1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "OUT_3.3V" output
-			(at 234.95 124.46 0)
-			(uuid "cb2d7844-bcdf-4043-97cb-d1681e92c497")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "apple_peeler_pcb"
-				(path "/d5946b96-44a8-4a28-8641-19803e1510af/ab4760da-4146-4688-a275-418314974b55"
-					(page "12")
 				)
 			)
 		)

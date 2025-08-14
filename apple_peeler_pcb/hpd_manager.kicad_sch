@@ -1,0 +1,247 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f605e9eb-648c-4b45-933b-496d28d93099")
+	(paper "A4")
+	(lib_symbols)
+	(junction
+		(at 172.72 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbe5fb2c-37a7-4932-9660-fff8e3a3858d")
+	)
+	(wire
+		(pts
+			(xy 166.37 91.44) (xy 172.72 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08709b95-c956-44a4-9c5e-d3077c2254bf")
+	)
+	(wire
+		(pts
+			(xy 172.72 97.79) (xy 181.61 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e85848a-cc1c-4bb2-afc1-9c5cd3a5f86e")
+	)
+	(wire
+		(pts
+			(xy 130.81 104.14) (xy 134.62 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2965cb94-6396-49a2-8a4f-817f939fbf35")
+	)
+	(wire
+		(pts
+			(xy 172.72 104.14) (xy 166.37 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a72b387-928f-4d1a-847a-6f134a2579b6")
+	)
+	(wire
+		(pts
+			(xy 172.72 97.79) (xy 172.72 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62a514e8-6767-4eb4-82d5-9670c43bfb46")
+	)
+	(wire
+		(pts
+			(xy 130.81 91.44) (xy 134.62 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98c28f1b-b323-42ff-82d8-ab0053dccc78")
+	)
+	(wire
+		(pts
+			(xy 172.72 91.44) (xy 172.72 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f47eecf-555b-42a6-9ea7-cc20f348c05f")
+	)
+	(hierarchical_label "ASSERT"
+		(shape input)
+		(at 130.81 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "107e8c4c-dd67-4b7c-94f6-45b4b14b5706")
+	)
+	(hierarchical_label "MON"
+		(shape output)
+		(at 130.81 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "302413fa-a30c-45fc-8ed1-ff7452be8f43")
+	)
+	(hierarchical_label "HPD_LINE"
+		(shape input)
+		(at 181.61 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f280b280-5fa8-4ec8-a2d5-dec806dc665d")
+	)
+	(sheet
+		(at 134.62 101.6)
+		(size 31.75 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3e7a2019-c147-43be-8925-3656ede786af")
+		(property "Sheetname" "High-side switch"
+			(at 134.62 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "high_side_switch.kicad_sch"
+			(at 134.62 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN_3.3V" input
+			(at 134.62 104.14 180)
+			(uuid "630241b9-52b3-4c63-9b31-b64dd1f26ebd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT_5V" output
+			(at 166.37 104.14 0)
+			(uuid "2b7a3bb1-dca9-4536-8fc8-ba80163ba227")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "apple_peeler_pcb"
+				(path "/d5946b96-44a8-4a28-8641-19803e1510af/ab4760da-4146-4688-a275-418314974b55/216077bc-1e97-451f-9a4f-0a4e0691e85e"
+					(page "23")
+				)
+				(path "/d5946b96-44a8-4a28-8641-19803e1510af/ab4760da-4146-4688-a275-418314974b55/207d6e2c-5657-4cae-9098-bf31bbf0eeb3"
+					(page "24")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 88.9)
+		(size 31.75 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9d425879-c049-4dfa-82be-004c8041dfbb")
+		(property "Sheetname" "Line sense"
+			(at 134.62 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "line_sense.kicad_sch"
+			(at 134.62 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN" input
+			(at 166.37 91.44 0)
+			(uuid "ce136ee6-5e14-46a3-b63e-27240f29ad38")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT_3.3V" output
+			(at 134.62 91.44 180)
+			(uuid "dbfc3563-15f0-498a-b069-90162043984e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "apple_peeler_pcb"
+				(path "/d5946b96-44a8-4a28-8641-19803e1510af/ab4760da-4146-4688-a275-418314974b55/216077bc-1e97-451f-9a4f-0a4e0691e85e"
+					(page "22")
+				)
+				(path "/d5946b96-44a8-4a28-8641-19803e1510af/ab4760da-4146-4688-a275-418314974b55/207d6e2c-5657-4cae-9098-bf31bbf0eeb3"
+					(page "12")
+				)
+			)
+		)
+	)
+)

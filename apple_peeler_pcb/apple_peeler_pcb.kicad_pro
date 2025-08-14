@@ -759,15 +759,15 @@
       "Pullup level shifter1"
     ],
     [
-      "6046dcba-ade8-41f9-96d2-caaf24154fd4",
-      "High-side switch"
+      "207d6e2c-5657-4cae-9098-bf31bbf0eeb3",
+      "HPD manager1"
     ],
     [
       "566595e9-3b43-49bd-94a9-252623d78830",
       "Pullup level shifter2"
     ],
     [
-      "fec152a4-11e6-4915-b614-693f728bc57e",
+      "9d425879-c049-4dfa-82be-004c8041dfbb",
       "Line sense"
     ],
     [
@@ -801,6 +801,26 @@
     [
       "ff7927ce-242d-46a3-8944-ca0e798b7163",
       "UI"
+    ],
+    [
+      "216077bc-1e97-451f-9a4f-0a4e0691e85e",
+      "HPD manager"
+    ],
+    [
+      "9d425879-c049-4dfa-82be-004c8041dfbb",
+      "Line sense"
+    ],
+    [
+      "3e7a2019-c147-43be-8925-3656ede786af",
+      "High-side switch"
+    ],
+    [
+      "3e7a2019-c147-43be-8925-3656ede786af",
+      "High-side switch"
+    ],
+    [
+      "9898d91a-fb1c-440b-9509-02fc004394d7",
+      "CEC interface1"
     ]
   ],
   "text_variables": {}

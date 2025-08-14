@@ -2835,14 +2835,6 @@
 		(uuid "28ff766d-e748-4dc7-8d51-c776c548d51c")
 	)
 	(no_connect
-		(at 168.91 127)
-		(uuid "29f6bc2b-5543-46f6-9576-2cfbfd06952e")
-	)
-	(no_connect
-		(at 168.91 109.22)
-		(uuid "38e719e4-6097-46ea-8011-60e1478937e5")
-	)
-	(no_connect
 		(at 168.91 152.4)
 		(uuid "5e40f5d7-207d-4738-b034-8c4d349e4902")
 	)
@@ -2855,20 +2847,12 @@
 		(uuid "7b5e870b-a429-40b7-8994-1cefe2dc7d16")
 	)
 	(no_connect
-		(at 168.91 132.08)
-		(uuid "88825c11-5f38-426a-82cb-411477b4b78b")
-	)
-	(no_connect
 		(at 168.91 93.98)
 		(uuid "92ca9fb9-e746-4c42-9edf-86036581f5c2")
 	)
 	(no_connect
 		(at 168.91 81.28)
 		(uuid "9cd86dde-9ca6-4440-82c9-cdbeb51fe735")
-	)
-	(no_connect
-		(at 168.91 119.38)
-		(uuid "aaa62339-b60f-483a-aa67-6e2414e2bd7e")
 	)
 	(no_connect
 		(at 118.11 152.4)
@@ -3020,6 +3004,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 109.22) (xy 228.6 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "243c982a-dafc-4860-8c56-e8baf3e02e00")
+	)
+	(wire
+		(pts
 			(xy 168.91 60.96) (xy 168.91 59.69)
 		)
 		(stroke
@@ -3060,6 +3054,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 127) (xy 228.6 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bf2d894-0b86-4acb-a6b0-6783d17c54b7")
+	)
+	(wire
+		(pts
 			(xy 140.97 67.31) (xy 140.97 68.58)
 		)
 		(stroke
@@ -3077,6 +3081,16 @@
 			(type default)
 		)
 		(uuid "2f654e92-2d29-4c03-9595-4942b0ffc31d")
+	)
+	(wire
+		(pts
+			(xy 168.91 119.38) (xy 228.6 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34d713a3-73e0-4569-9e92-6b2a31442763")
 	)
 	(wire
 		(pts
@@ -3147,6 +3161,16 @@
 			(type default)
 		)
 		(uuid "4818a39b-2f1a-4def-8330-b8cc240aea9e")
+	)
+	(wire
+		(pts
+			(xy 168.91 132.08) (xy 228.6 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4da10142-f22a-4a6c-9c87-fe0ddc6253eb")
 	)
 	(wire
 		(pts
@@ -6867,28 +6891,8 @@
 			)
 		)
 		(pin "CEC_BRIDGE" input
-			(at 228.6 137.16 180)
-			(uuid "f5270182-18ac-4c79-a53a-8d405696b319")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CEC_MON" output
-			(at 228.6 134.62 180)
-			(uuid "947adb57-872e-47b1-b07f-82bb42cb992a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CEC_PULLDOWN" input
 			(at 228.6 139.7 180)
-			(uuid "473ad9a0-4a2e-44f4-91e8-53ede73bdae4")
+			(uuid "f5270182-18ac-4c79-a53a-8d405696b319")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6907,7 +6911,7 @@
 			)
 		)
 		(pin "HPD_ARC_BRIDGE" input
-			(at 228.6 129.54 180)
+			(at 228.6 127 180)
 			(uuid "17cade46-90ea-4ea6-97db-dc2410f2a328")
 			(effects
 				(font
@@ -6917,7 +6921,7 @@
 			)
 		)
 		(pin "HPD_SINK_MON" output
-			(at 228.6 124.46 180)
+			(at 228.6 121.92 180)
 			(uuid "4ce09aa5-02d0-48e1-8a28-b14e5e2105f6")
 			(effects
 				(font
@@ -6927,7 +6931,7 @@
 			)
 		)
 		(pin "HPD_SRC_ASSERT" input
-			(at 228.6 121.92 180)
+			(at 228.6 119.38 180)
 			(uuid "1ca3dfaf-af06-4b6e-a451-f7e41f4fa959")
 			(effects
 				(font
@@ -6937,7 +6941,7 @@
 			)
 		)
 		(pin "SCL_BRIDGE" input
-			(at 228.6 116.84 180)
+			(at 228.6 114.3 180)
 			(uuid "45b5f226-3b78-49f3-b144-51bc27f30d42")
 			(effects
 				(font
@@ -6947,7 +6951,7 @@
 			)
 		)
 		(pin "SCL_SINK_3V3" bidirectional
-			(at 228.6 114.3 180)
+			(at 228.6 109.22 180)
 			(uuid "fa981692-b276-40e7-b566-09540e67aad2")
 			(effects
 				(font
@@ -6957,7 +6961,7 @@
 			)
 		)
 		(pin "SCL_SRC_3V3" bidirectional
-			(at 228.6 111.76 180)
+			(at 228.6 104.14 180)
 			(uuid "4a7b8786-3ff7-4b04-b0ca-4d6880908e49")
 			(effects
 				(font
@@ -6967,7 +6971,7 @@
 			)
 		)
 		(pin "SDA_BRIDGE" input
-			(at 228.6 106.68 180)
+			(at 228.6 111.76 180)
 			(uuid "f0a7ce25-74be-4322-a7b8-c177fefe6c43")
 			(effects
 				(font
@@ -6977,7 +6981,7 @@
 			)
 		)
 		(pin "SDA_SINK_3V3" bidirectional
-			(at 228.6 104.14 180)
+			(at 228.6 106.68 180)
 			(uuid "d2924bf3-b268-4c0a-9661-9c4876733e20")
 			(effects
 				(font
@@ -6999,6 +7003,66 @@
 		(pin "VCC_MON" output
 			(at 228.6 96.52 180)
 			(uuid "cdb75826-ff5a-449f-bc67-ae6d6449a916")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CEC_SINK_MON" output
+			(at 228.6 129.54 180)
+			(uuid "0745f327-e588-41ba-919c-4dd5aac515f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CEC_SINK_PULLDOWN" input
+			(at 228.6 132.08 180)
+			(uuid "652e8f31-0444-4016-8fb8-1f4772ee5eaf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CEC_SRC_MON" output
+			(at 228.6 137.16 180)
+			(uuid "33152240-27d2-46d4-83ab-015e4682e031")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CEC_SRC_PULLDOWN" input
+			(at 228.6 134.62 180)
+			(uuid "f27123f6-9aba-4aac-875a-fa7397fbddec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HPD_SINK_ASSERT" input
+			(at 228.6 124.46 180)
+			(uuid "0a66b7bc-fe61-4a48-9337-0121db35a71e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HPD_SRC_MON" output
+			(at 228.6 116.84 180)
+			(uuid "efb182ba-04c4-4d27-9fb6-00aa08379d6e")
 			(effects
 				(font
 					(size 1.27 1.27)
