@@ -2326,37 +2326,37 @@
 			(uuid "fa6fcf5f-7cb9-4d4a-9cbf-d46ab35a005f")
 		)
 		(pin "8"
-			(uuid "3143e1b9-d9e9-49ed-91b0-f6e07638cede")
+			(uuid "3143e1b9-d9e9-49ed-91b0-f6e07638cedf")
 		)
 		(pin "6"
-			(uuid "d0d44ae1-e8df-4330-88cd-4562aa3709c5")
+			(uuid "d0d44ae1-e8df-4330-88cd-4562aa3709c6")
 		)
 		(pin "11"
-			(uuid "492d9a3b-f47d-4b00-81e9-cccceebd2c21")
+			(uuid "492d9a3b-f47d-4b00-81e9-cccceebd2c22")
 		)
 		(pin "7"
 			(uuid "afde4e95-02fc-4310-b582-8864b76a5ae1")
 		)
 		(pin "10"
-			(uuid "35148242-2424-4f2c-b4a0-ec1fca4a8626")
+			(uuid "35148242-2424-4f2c-b4a0-ec1fca4a8627")
 		)
 		(pin "12"
-			(uuid "f70502ca-5b8c-4963-b352-c9b93c853aaa")
+			(uuid "f70502ca-5b8c-4963-b352-c9b93c853aab")
 		)
 		(pin "13"
-			(uuid "57da69a5-6b87-4a77-81b5-11117c03d611")
+			(uuid "57da69a5-6b87-4a77-81b5-11117c03d612")
 		)
 		(pin "1"
-			(uuid "eaca3f8c-9922-473a-82d3-1b7a89bb3bca")
+			(uuid "eaca3f8c-9922-473a-82d3-1b7a89bb3bcb")
 		)
 		(pin "4"
 			(uuid "e4f5c85e-3a40-4904-b338-918888bc29be")
 		)
 		(pin "2"
-			(uuid "47cbf71b-fc86-420f-979c-f0e545046a6d")
+			(uuid "47cbf71b-fc86-420f-979c-f0e545046a6e")
 		)
 		(pin "9"
-			(uuid "36d8d72e-a261-4ce9-be59-ecc6af8bdbf6")
+			(uuid "36d8d72e-a261-4ce9-be59-ecc6af8bdbf7")
 		)
 		(instances
 			(project "apple_peeler_pcb"
@@ -2772,22 +2772,22 @@
 			(uuid "701adbff-31a1-491d-b9b3-6d641b8ae7e1")
 		)
 		(pin "8"
-			(uuid "3143e1b9-d9e9-49ed-91b0-f6e07638cedf")
+			(uuid "3143e1b9-d9e9-49ed-91b0-f6e07638cee0")
 		)
 		(pin "6"
-			(uuid "d0d44ae1-e8df-4330-88cd-4562aa3709c6")
+			(uuid "d0d44ae1-e8df-4330-88cd-4562aa3709c7")
 		)
 		(pin "11"
-			(uuid "492d9a3b-f47d-4b00-81e9-cccceebd2c22")
+			(uuid "492d9a3b-f47d-4b00-81e9-cccceebd2c23")
 		)
 		(pin "7"
 			(uuid "afde4e95-02fc-4310-b582-8864b76a5ae2")
 		)
 		(pin "10"
-			(uuid "35148242-2424-4f2c-b4a0-ec1fca4a8627")
+			(uuid "35148242-2424-4f2c-b4a0-ec1fca4a8628")
 		)
 		(pin "12"
-			(uuid "f70502ca-5b8c-4963-b352-c9b93c853aab")
+			(uuid "f70502ca-5b8c-4963-b352-c9b93c853aac")
 		)
 		(pin "13"
 			(uuid "7cb4d723-0fa0-49b0-ab08-ebe47224ea1a")
@@ -2802,7 +2802,7 @@
 			(uuid "9cb9a34d-5c64-49de-870b-d25761265975")
 		)
 		(pin "9"
-			(uuid "36d8d72e-a261-4ce9-be59-ecc6af8bdbf7")
+			(uuid "36d8d72e-a261-4ce9-be59-ecc6af8bdbf8")
 		)
 		(instances
 			(project "apple_peeler_pcb"
@@ -2901,16 +2901,16 @@
 			(uuid "12b8b68a-f133-4dd4-880f-6210a2fba377")
 		)
 		(pin "11"
-			(uuid "492d9a3b-f47d-4b00-81e9-cccceebd2c23")
+			(uuid "492d9a3b-f47d-4b00-81e9-cccceebd2c24")
 		)
 		(pin "7"
 			(uuid "afde4e95-02fc-4310-b582-8864b76a5ae3")
 		)
 		(pin "10"
-			(uuid "35148242-2424-4f2c-b4a0-ec1fca4a8628")
+			(uuid "35148242-2424-4f2c-b4a0-ec1fca4a8629")
 		)
 		(pin "12"
-			(uuid "f70502ca-5b8c-4963-b352-c9b93c853aac")
+			(uuid "f70502ca-5b8c-4963-b352-c9b93c853aad")
 		)
 		(pin "13"
 			(uuid "57da69a5-6b87-4a77-81b5-11117c03d613")
