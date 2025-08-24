@@ -312,6 +312,261 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "LED:SK6812MINI"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "SK6812MINI"
+				(at 1.27 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+				(at 2.54 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED with integrated controller"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RGB LED NeoPixel Mini addressable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SK6812MINI_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "SK6812MINI_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SK6812MINI_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -587,6 +842,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -695,15 +1075,19 @@
 		(color 0 0 0 0)
 		(uuid "36ca45c1-e14b-4c3e-a832-8f8ad48008c9")
 	)
+	(no_connect
+		(at 220.98 110.49)
+		(uuid "69ac9c14-125e-4220-9bb7-58186bbdc268")
+	)
 	(wire
 		(pts
-			(xy 132.08 118.11) (xy 138.43 118.11)
+			(xy 213.36 118.11) (xy 213.36 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0e02053c-54c9-4648-9123-9fdb986b707e")
+		(uuid "0eb4da1d-a109-453f-b71e-633b49179c9b")
 	)
 	(wire
 		(pts
@@ -727,16 +1111,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 118.11) (xy 156.21 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24a8d6d6-7959-4fca-9ce3-bafc39256940")
-	)
-	(wire
-		(pts
 			(xy 143.51 91.44) (xy 151.13 91.44)
 		)
 		(stroke
@@ -744,6 +1118,16 @@
 			(type default)
 		)
 		(uuid "250a17c4-86a5-488c-aa03-6d68eb86ba1b")
+	)
+	(wire
+		(pts
+			(xy 184.15 101.6) (xy 184.15 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25203f1b-7fa8-4e88-9de4-eec7eba92c5d")
 	)
 	(wire
 		(pts
@@ -767,23 +1151,23 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 102.87) (xy 138.43 102.87)
+			(xy 170.18 110.49) (xy 176.53 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4311729e-2b5d-4230-8d1c-79b3b3c0a593")
+		(uuid "3ec6455f-8144-4fb7-8741-2582e6a3d1cf")
 	)
 	(wire
 		(pts
-			(xy 146.05 110.49) (xy 148.59 110.49)
+			(xy 213.36 101.6) (xy 213.36 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4b2306f0-cba2-4e97-8664-5fd17f566ae8")
+		(uuid "3f8e1b0b-7871-4c75-9fcf-2ef6ff28678a")
 	)
 	(wire
 		(pts
@@ -793,27 +1177,27 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "70b508e3-093f-4d68-b72f-a313d3a969c5")
+		(uuid "4311729e-2b5d-4230-8d1c-79b3b3c0a593")
 	)
 	(wire
 		(pts
-			(xy 146.05 118.11) (xy 148.59 118.11)
+			(xy 191.77 110.49) (xy 205.74 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7d3fff3b-1796-47ab-b0be-697bfe9b72c7")
+		(uuid "6e37b429-8d88-4403-8834-3392f3f5b069")
 	)
 	(wire
 		(pts
-			(xy 146.05 102.87) (xy 148.59 102.87)
+			(xy 184.15 118.11) (xy 184.15 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "865775bd-09b9-4213-a0e8-a6da73cf3c75")
+		(uuid "734a6e44-5b04-42ec-bbc4-079093ce0405")
 	)
 	(wire
 		(pts
@@ -824,26 +1208,6 @@
 			(type default)
 		)
 		(uuid "89080cbf-72f8-4e18-b653-ca1da99cdc1c")
-	)
-	(wire
-		(pts
-			(xy 163.83 110.49) (xy 156.21 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf34cf89-37ff-4659-be61-58c7be98017f")
-	)
-	(wire
-		(pts
-			(xy 163.83 102.87) (xy 156.21 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c30c5f75-ec77-44a5-b754-34a5c6c1c63c")
 	)
 	(wire
 		(pts
@@ -865,9 +1229,9 @@
 		)
 		(uuid "cc2bf151-c088-4d60-b47c-19fafd65b8b7")
 	)
-	(hierarchical_label "GREEN_LED"
+	(hierarchical_label "WLED"
 		(shape input)
-		(at 132.08 102.87 180)
+		(at 132.08 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -887,27 +1251,73 @@
 		)
 		(uuid "3b5dc7f1-ecfe-49e0-bf66-1f26728186cc")
 	)
-	(hierarchical_label "RED_LED"
-		(shape input)
-		(at 132.08 118.11 180)
-		(effects
-			(font
-				(size 1.27 1.27)
+	(symbol
+		(lib_id "power:GND")
+		(at 184.15 119.38 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0dbbed66-d2c2-4eae-bf58-8a0738f855e3")
+		(property "Reference" "#PWR092"
+			(at 184.15 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
-			(justify right)
 		)
-		(uuid "5729e970-a1a5-47d7-b2fe-e2e1876e79b1")
-	)
-	(hierarchical_label "YELLOW_LED"
-		(shape input)
-		(at 132.08 110.49 180)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(property "Value" "GND"
+			(at 184.15 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
-			(justify right)
 		)
-		(uuid "66254380-9b97-4798-91bf-7805e08feb2b")
+		(property "Footprint" ""
+			(at 184.15 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 184.15 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b84907a-088c-4789-bad3-83c5beebfb0a")
+		)
+		(instances
+			(project "apple_peeler_pcb"
+				(path "/d5946b96-44a8-4a28-8641-19803e1510af/ff7927ce-242d-46a3-8944-ca0e798b7163"
+					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:LED")
@@ -918,7 +1328,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1a8dd085-f17e-4c75-a008-cad32c91df89")
-		(property "Reference" "D7"
+		(property "Reference" "D4"
 			(at 149.86 130.81 0)
 			(effects
 				(font
@@ -999,102 +1409,6 @@
 		(instances
 			(project "apple_peeler_pcb"
 				(path "/d5946b96-44a8-4a28-8641-19803e1510af/ff7927ce-242d-46a3-8944-ca0e798b7163"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 152.4 102.87 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "229b9c9c-b2b4-4ee9-a985-716a4566d66b")
-		(property "Reference" "D4"
-			(at 149.86 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GREEN"
-			(at 154.94 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 152.4 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 152.4 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 152.4 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2297"
-			(at 152.4 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "KT-0805G"
-			(at 152.4 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ce566ff0-f4e9-44c2-8cf8-51aee7629596")
-		)
-		(pin "2"
-			(uuid "2ced8ecf-8e0b-45dc-ad00-a200157c6bd0")
-		)
-		(instances
-			(project ""
-				(path "/d5946b96-44a8-4a28-8641-19803e1510af/ff7927ce-242d-46a3-8944-ca0e798b7163"
 					(reference "D4")
 					(unit 1)
 				)
@@ -1111,7 +1425,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c433f5f-4a33-4d7f-a426-1666ccccd9ef")
-		(property "Reference" "R50"
+		(property "Reference" "R42"
 			(at 142.24 129.54 90)
 			(effects
 				(font
@@ -1181,7 +1495,7 @@
 		(instances
 			(project "apple_peeler_pcb"
 				(path "/d5946b96-44a8-4a28-8641-19803e1510af/ff7927ce-242d-46a3-8944-ca0e798b7163"
-					(reference "R50")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -1196,7 +1510,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "35dc7a16-d795-4fcf-9a8e-1d1e0bad423d")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR087"
 			(at 135.89 132.08 0)
 			(effects
 				(font
@@ -1247,41 +1561,60 @@
 		(instances
 			(project "apple_peeler_pcb"
 				(path "/d5946b96-44a8-4a28-8641-19803e1510af/ff7927ce-242d-46a3-8944-ca0e798b7163"
-					(reference "#PWR092")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 152.4 118.11 180)
+		(lib_id "LED:SK6812MINI")
+		(at 213.36 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5c8801a1-40cb-452b-bef7-ee7f29b421bb")
+		(fields_autoplaced yes)
+		(uuid "38975e68-3460-4dcc-801d-a31d94db44a7")
 		(property "Reference" "D6"
-			(at 149.86 116.84 0)
+			(at 226.06 104.1714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "RED"
-			(at 154.94 119.38 0)
+		(property "Value" "SK6812MINI"
+			(at 226.06 106.7114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 152.4 118.11 0)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+			(at 214.63 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 215.9 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 213.36 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1289,8 +1622,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 152.4 118.11 0)
+		(property "Part" ""
+			(at 213.36 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1298,8 +1631,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 152.4 118.11 0)
+		(property "LCSC" "C5149201"
+			(at 213.36 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1307,38 +1640,26 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 152.4 118.11 0)
+		(property "MPN" "SK6812MINI-E"
+			(at 213.36 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "LCSC" "C84256"
-			(at 152.4 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "KT-0805R"
-			(at 152.4 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b393bf6e-1f87-4143-a426-f27cb0743289")
 		)
 		(pin "2"
-			(uuid "202e9285-0465-4c61-9848-2d002273e0d4")
+			(uuid "21527c51-123b-4437-8305-7ef4b81de80b")
+		)
+		(pin "4"
+			(uuid "8a0c7888-1feb-4072-8661-9eebeb4e54b1")
+		)
+		(pin "3"
+			(uuid "66f90b5f-f966-4676-9b69-eb59a1fb9767")
+		)
+		(pin "1"
+			(uuid "739a9cd8-d7fb-4bb5-a675-7a23b58a8fdb")
 		)
 		(instances
 			(project "apple_peeler_pcb"
@@ -1350,33 +1671,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 142.24 118.11 270)
-		(mirror x)
+		(lib_id "power:+5V")
+		(at 213.36 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5f1bd7b0-9b67-425a-a0e0-d37b79f76f8f")
-		(property "Reference" "R49"
-			(at 142.24 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1kΩ"
-			(at 142.24 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 142.24 119.888 90)
+		(uuid "4e9c86da-8f3e-4bf5-966b-55146371ab7f")
+		(property "Reference" "#PWR093"
+			(at 213.36 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1384,8 +1688,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 142.24 118.11 0)
+		(property "Value" "+5V"
+			(at 212.09 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1393,8 +1706,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 142.24 118.11 0)
+		(property "Datasheet" ""
+			(at 213.36 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1402,67 +1715,38 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17513"
-			(at 142.24 118.11 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 213.36 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "MPN" "R 1kΩ 125mW 0805"
-			(at 142.24 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a13eaad8-8965-4c28-8d36-ed4c000767e1")
 		)
 		(pin "1"
-			(uuid "c0b3a3cc-91fd-4988-ae08-f2edad29a964")
+			(uuid "36002979-a8e6-4a59-a9ca-9fac23adb68b")
 		)
 		(instances
 			(project "apple_peeler_pcb"
 				(path "/d5946b96-44a8-4a28-8641-19803e1510af/ff7927ce-242d-46a3-8944-ca0e798b7163"
-					(reference "R49")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 142.24 102.87 270)
-		(mirror x)
+		(lib_id "power:+5V")
+		(at 184.15 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "612b3b9a-7287-415c-8134-d68ee4c80354")
-		(property "Reference" "R47"
-			(at 142.24 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1kΩ"
-			(at 142.24 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 142.24 104.648 90)
+		(uuid "535a34ef-23cc-43e4-b3aa-4857d2cf4ea6")
+		(property "Reference" "#PWR091"
+			(at 184.15 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1470,8 +1754,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 142.24 102.87 0)
+		(property "Value" "+5V"
+			(at 182.88 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1479,8 +1772,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 142.24 102.87 0)
+		(property "Datasheet" ""
+			(at 184.15 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1488,34 +1781,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17513"
-			(at 142.24 102.87 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 184.15 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "MPN" "R 1kΩ 125mW 0805"
-			(at 142.24 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "64f85e74-b1ae-4228-a0e5-5817a0411d2a")
 		)
 		(pin "1"
-			(uuid "b200db5f-28da-47ca-8ae7-05feed907969")
+			(uuid "3b88e419-87dc-45e8-a899-89a09bc4c686")
 		)
 		(instances
 			(project "apple_peeler_pcb"
 				(path "/d5946b96-44a8-4a28-8641-19803e1510af/ff7927ce-242d-46a3-8944-ca0e798b7163"
-					(reference "R47")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -1532,7 +1813,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "631e7e81-a669-4ec2-981a-21b545d3407d")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR089"
 			(at 170.18 91.44 0)
 			(effects
 				(font
@@ -1583,7 +1864,7 @@
 		(instances
 			(project "apple_peeler_pcb"
 				(path "/d5946b96-44a8-4a28-8641-19803e1510af/ff7927ce-242d-46a3-8944-ca0e798b7163"
-					(reference "#PWR094")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -1600,7 +1881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86b8b462-07a1-40c0-ae0e-7316a3fdb15c")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR090"
 			(at 170.18 132.08 0)
 			(effects
 				(font
@@ -1651,7 +1932,7 @@
 		(instances
 			(project "apple_peeler_pcb"
 				(path "/d5946b96-44a8-4a28-8641-19803e1510af/ff7927ce-242d-46a3-8944-ca0e798b7163"
-					(reference "#PWR098")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -1667,7 +1948,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9093e536-9c64-46f5-9e13-e97be8e4adce")
-		(property "Reference" "R51"
+		(property "Reference" "R43"
 			(at 140.97 82.5499 0)
 			(effects
 				(font
@@ -1739,7 +2020,178 @@
 		(instances
 			(project "apple_peeler_pcb"
 				(path "/d5946b96-44a8-4a28-8641-19803e1510af/ff7927ce-242d-46a3-8944-ca0e798b7163"
-					(reference "R51")
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 184.15 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90ea2f28-9e98-45cd-9360-0cec2694ab63")
+		(property "Reference" "D5"
+			(at 196.85 104.1714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 196.85 106.7114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+			(at 185.42 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 186.69 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 184.15 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" ""
+			(at 184.15 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 184.15 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SK6812MINI-E"
+			(at 184.15 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bbaf5aa5-b02d-4f16-ad46-0d55ea237f8b")
+		)
+		(pin "4"
+			(uuid "d13a59c4-d74e-4f7f-bf37-8be8e2332f8a")
+		)
+		(pin "3"
+			(uuid "a9949a0e-de7e-40f2-a935-5d8a1a651eac")
+		)
+		(pin "1"
+			(uuid "ab03d539-eb19-42b8-9b20-94b45a1b6409")
+		)
+		(instances
+			(project "apple_peeler_pcb"
+				(path "/d5946b96-44a8-4a28-8641-19803e1510af/ff7927ce-242d-46a3-8944-ca0e798b7163"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 213.36 119.38 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a793c65-e32a-4bfb-862c-9a5eccf3558e")
+		(property "Reference" "#PWR094"
+			(at 213.36 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 213.36 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 213.36 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbb4356c-8791-49a8-9750-92dfd3d61f66")
+		)
+		(instances
+			(project "apple_peeler_pcb"
+				(path "/d5946b96-44a8-4a28-8641-19803e1510af/ff7927ce-242d-46a3-8944-ca0e798b7163"
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -1754,7 +2206,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af346a03-5575-47d6-9cc9-9906aceda27e")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR088"
 			(at 143.51 82.55 0)
 			(effects
 				(font
@@ -1804,171 +2256,7 @@
 		(instances
 			(project "apple_peeler_pcb"
 				(path "/d5946b96-44a8-4a28-8641-19803e1510af/ff7927ce-242d-46a3-8944-ca0e798b7163"
-					(reference "#PWR093")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 152.4 110.49 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b0e2e2b4-80a0-4d06-b4ec-9253fc9e67e7")
-		(property "Reference" "D5"
-			(at 149.86 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "YELLOW"
-			(at 154.94 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 152.4 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 152.4 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 152.4 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2296"
-			(at 152.4 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "KT-0805Y"
-			(at 152.4 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f707397f-8900-42d6-8458-024b6f15a6fd")
-		)
-		(pin "2"
-			(uuid "b1942d19-9c17-467a-89b1-1fccd0688274")
-		)
-		(instances
-			(project "apple_peeler_pcb"
-				(path "/d5946b96-44a8-4a28-8641-19803e1510af/ff7927ce-242d-46a3-8944-ca0e798b7163"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 163.83 102.87 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c9d6cd4d-dd51-46b2-96d6-7519b20ba3d1")
-		(property "Reference" "#PWR095"
-			(at 170.18 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 168.91 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aaa3b21d-2b33-4056-8126-c53cc4ff2ca3")
-		)
-		(instances
-			(project "apple_peeler_pcb"
-				(path "/d5946b96-44a8-4a28-8641-19803e1510af/ff7927ce-242d-46a3-8944-ca0e798b7163"
-					(reference "#PWR095")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -2080,224 +2368,64 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:GND")
-		(at 163.83 118.11 90)
-		(mirror x)
-		(unit 1)
+	(sheet
+		(at 138.43 107.95)
+		(size 31.75 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ec94ed27-f2e6-48f7-afcc-1e102101a32c")
-		(property "Reference" "#PWR097"
-			(at 170.18 118.11 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bb525200-3afc-44a4-bfe6-0148de1ee95c")
+		(property "Sheetname" "Pullup level shifter"
+			(at 138.43 107.2384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "GND"
-			(at 168.91 118.11 0)
+		(property "Sheetfile" "pullup_level_shifter.kicad_sch"
+			(at 138.43 113.6146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left top)
 			)
 		)
-		(property "Footprint" ""
-			(at 163.83 118.11 0)
+		(pin "IN_3.3V" input
+			(at 138.43 110.49 180)
+			(uuid "7556b7dd-52e0-412e-a30f-60d8bc13caf1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Datasheet" ""
-			(at 163.83 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "87e5e2bc-6a96-45e9-8865-425bb917ad45")
-		)
-		(instances
-			(project "apple_peeler_pcb"
-				(path "/d5946b96-44a8-4a28-8641-19803e1510af/ff7927ce-242d-46a3-8944-ca0e798b7163"
-					(reference "#PWR097")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 163.83 110.49 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f252dcb0-a3de-4193-b53e-d8ad13cc4a28")
-		(property "Reference" "#PWR096"
+		(pin "OUT_5V" input
 			(at 170.18 110.49 0)
+			(uuid "6c55003f-be9f-4792-9eed-5d77634f2c7e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
-		)
-		(property "Value" "GND"
-			(at 168.91 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a913b658-dd0e-4062-962e-24b9ee2c9979")
 		)
 		(instances
 			(project "apple_peeler_pcb"
 				(path "/d5946b96-44a8-4a28-8641-19803e1510af/ff7927ce-242d-46a3-8944-ca0e798b7163"
-					(reference "#PWR096")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 142.24 110.49 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f3605f21-890c-4efb-a10d-9db2cb8a4179")
-		(property "Reference" "R48"
-			(at 142.24 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1kΩ"
-			(at 142.24 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 142.24 112.268 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 142.24 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C17513"
-			(at 142.24 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "R 1kΩ 125mW 0805"
-			(at 142.24 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8409fc6b-12fc-4917-a633-bd581647658c")
-		)
-		(pin "1"
-			(uuid "eecee38a-e105-4c9f-9b6c-3432cf6903ce")
-		)
-		(instances
-			(project "apple_peeler_pcb"
-				(path "/d5946b96-44a8-4a28-8641-19803e1510af/ff7927ce-242d-46a3-8944-ca0e798b7163"
-					(reference "R48")
-					(unit 1)
+					(page "26")
 				)
 			)
 		)

@@ -440,6 +440,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -672,6 +673,12 @@
           "label": "Puspose Pin4",
           "name": "Puspose Pin4",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part",
+          "name": "Part",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -821,6 +828,10 @@
     [
       "9898d91a-fb1c-440b-9509-02fc004394d7",
       "CEC interface1"
+    ],
+    [
+      "bb525200-3afc-44a4-bfe6-0148de1ee95c",
+      "Pullup level shifter"
     ]
   ],
   "text_variables": {}

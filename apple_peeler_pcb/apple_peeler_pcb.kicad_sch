@@ -2831,6 +2831,14 @@
 		(uuid "d7308c68-c538-4133-bb7e-72759821ccfa")
 	)
 	(no_connect
+		(at 168.91 88.9)
+		(uuid "0b15eee9-1ba7-4405-b7fb-24ea6e730462")
+	)
+	(no_connect
+		(at 168.91 91.44)
+		(uuid "1598dd23-eabd-4644-af69-bc659eabc88f")
+	)
+	(no_connect
 		(at 168.91 144.78)
 		(uuid "28ff766d-e748-4dc7-8d51-c776c548d51c")
 	)
@@ -3031,16 +3039,6 @@
 			(type default)
 		)
 		(uuid "25f5eb47-907b-4af7-90d4-00773773f105")
-	)
-	(wire
-		(pts
-			(xy 168.91 91.44) (xy 181.61 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "270a3d53-ec24-4b6c-a517-f9920f6060bf")
 	)
 	(wire
 		(pts
@@ -3261,16 +3259,6 @@
 			(type default)
 		)
 		(uuid "764fb77c-4b4f-4055-aab7-1be0596a5130")
-	)
-	(wire
-		(pts
-			(xy 168.91 88.9) (xy 181.61 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79a4e902-3eca-472f-8fa2-1eb086621123")
 	)
 	(wire
 		(pts
@@ -7204,7 +7192,7 @@
 	)
 	(sheet
 		(at 181.61 82.55)
-		(size 17.78 10.16)
+		(size 17.78 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7228,32 +7216,12 @@
 			)
 		)
 		(property "Sheetfile" "ui.kicad_sch"
-			(at 181.61 93.2946 0)
+			(at 181.61 88.2146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "GREEN_LED" input
-			(at 181.61 86.36 180)
-			(uuid "0ad3251e-cac2-487e-8340-ba7bbafa6aa5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "RED_LED" input
-			(at 181.61 88.9 180)
-			(uuid "35031365-fb3c-49bc-99c9-7f1b5eef7126")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "USR_BTN" output
@@ -7266,9 +7234,9 @@
 				(justify left)
 			)
 		)
-		(pin "YELLOW_LED" input
-			(at 181.61 91.44 180)
-			(uuid "e2064b7e-7f76-49c9-9e60-e4439e2661bc")
+		(pin "WLED" input
+			(at 181.61 86.36 180)
+			(uuid "b8bdba7b-9c31-40f1-8c34-7d803ec9b4eb")
 			(effects
 				(font
 					(size 1.27 1.27)
