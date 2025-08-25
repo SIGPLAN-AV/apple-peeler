@@ -534,12 +534,6 @@
 		(uuid "c38ecd05-1bb9-4996-a97e-09c0a9a20092")
 	)
 	(junction
-		(at 168.91 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e507cb36-0063-49a7-811d-ce96918a800a")
-	)
-	(junction
 		(at 146.05 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -587,7 +581,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 59.69) (xy 168.91 59.69)
+			(xy 157.48 59.69) (xy 180.34 59.69)
 		)
 		(stroke
 			(width 0)
@@ -644,16 +638,6 @@
 			(type default)
 		)
 		(uuid "57166c15-ed22-44bb-ba07-c099a201bee0")
-	)
-	(wire
-		(pts
-			(xy 168.91 60.96) (xy 168.91 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a6b162b-ad13-4966-b503-a35cf12a4a31")
 	)
 	(wire
 		(pts
@@ -817,16 +801,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 66.04) (xy 168.91 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc10ae11-0c61-41a7-be8b-2055078abe7c")
-	)
-	(wire
-		(pts
 			(xy 93.98 66.04) (xy 93.98 67.31)
 		)
 		(stroke
@@ -894,16 +868,6 @@
 			(type default)
 		)
 		(uuid "f2edefc8-dcad-4da0-918b-6dd564e6c15e")
-	)
-	(wire
-		(pts
-			(xy 168.91 59.69) (xy 180.34 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcd9a171-da48-4df2-abab-c2ae5f82a520")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2513,103 +2477,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 168.91 63.5 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8623e142-9425-4954-98f2-9ff3af61c852")
-		(property "Reference" "C20"
-			(at 166.37 62.2362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 166.37 64.7762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 168.91 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 168.91 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C49678"
-			(at 168.91 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C 100nF 50V 0805"
-			(at 168.91 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pin" "43"
-			(at 168.91 57.912 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4f47a89f-0c6f-4bb6-be62-dc2667a6cb11")
-		)
-		(pin "1"
-			(uuid "813e2609-f1fc-40be-86a4-4783eb99e8b4")
-		)
-		(instances
-			(project ""
-				(path "/d5946b96-44a8-4a28-8641-19803e1510af/36c29319-2fb9-4e97-8e03-94576ed291d6"
-					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 105.41 97.79 0)
 		(unit 1)
@@ -2901,73 +2768,6 @@
 			(project ""
 				(path "/d5946b96-44a8-4a28-8641-19803e1510af/36c29319-2fb9-4e97-8e03-94576ed291d6"
 					(reference "#PWR081")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 168.91 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b5d600a7-3d2a-43c5-8cb1-5e284f081946")
-		(property "Reference" "#PWR079"
-			(at 168.91 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 168.91 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.91 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6c42c320-8dfd-47be-8bad-bd928b20d50f")
-		)
-		(instances
-			(project ""
-				(path "/d5946b96-44a8-4a28-8641-19803e1510af/36c29319-2fb9-4e97-8e03-94576ed291d6"
-					(reference "#PWR079")
 					(unit 1)
 				)
 			)

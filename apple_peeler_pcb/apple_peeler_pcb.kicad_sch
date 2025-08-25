@@ -6806,7 +6806,7 @@
 				(justify left top)
 			)
 		)
-		(pin "DM" bidirectional
+		(pin "DN" bidirectional
 			(at 115.57 86.36 0)
 			(uuid "d14cfced-caae-4839-9f60-4f9600b430ba")
 			(effects
