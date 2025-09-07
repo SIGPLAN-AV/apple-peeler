@@ -6908,7 +6908,7 @@
 				(justify left)
 			)
 		)
-		(pin "HPD_SINK_MON" output
+		(pin "HPD_B_MON" output
 			(at 228.6 121.92 180)
 			(uuid "4ce09aa5-02d0-48e1-8a28-b14e5e2105f6")
 			(effects
@@ -6918,7 +6918,7 @@
 				(justify left)
 			)
 		)
-		(pin "HPD_SRC_ASSERT" input
+		(pin "HPD_A_ASSERT" input
 			(at 228.6 119.38 180)
 			(uuid "1ca3dfaf-af06-4b6e-a451-f7e41f4fa959")
 			(effects
@@ -6938,7 +6938,7 @@
 				(justify left)
 			)
 		)
-		(pin "SCL_SINK_3V3" bidirectional
+		(pin "SCL_B_3V3" bidirectional
 			(at 228.6 109.22 180)
 			(uuid "fa981692-b276-40e7-b566-09540e67aad2")
 			(effects
@@ -6948,7 +6948,7 @@
 				(justify left)
 			)
 		)
-		(pin "SCL_SRC_3V3" bidirectional
+		(pin "SCL_A_3V3" bidirectional
 			(at 228.6 104.14 180)
 			(uuid "4a7b8786-3ff7-4b04-b0ca-4d6880908e49")
 			(effects
@@ -6968,7 +6968,7 @@
 				(justify left)
 			)
 		)
-		(pin "SDA_SINK_3V3" bidirectional
+		(pin "SDA_B_3V3" bidirectional
 			(at 228.6 106.68 180)
 			(uuid "d2924bf3-b268-4c0a-9661-9c4876733e20")
 			(effects
@@ -6978,7 +6978,7 @@
 				(justify left)
 			)
 		)
-		(pin "SDA_SRC_3V3" bidirectional
+		(pin "SDA_A_3V3" bidirectional
 			(at 228.6 101.6 180)
 			(uuid "602c0620-9a83-4612-bf1f-e4254dea6f93")
 			(effects
@@ -6998,7 +6998,7 @@
 				(justify left)
 			)
 		)
-		(pin "CEC_SINK_MON" output
+		(pin "CEC_B_MON" output
 			(at 228.6 129.54 180)
 			(uuid "0745f327-e588-41ba-919c-4dd5aac515f1")
 			(effects
@@ -7008,7 +7008,7 @@
 				(justify left)
 			)
 		)
-		(pin "CEC_SINK_PULLDOWN" input
+		(pin "CEC_B_PULLDOWN" input
 			(at 228.6 132.08 180)
 			(uuid "652e8f31-0444-4016-8fb8-1f4772ee5eaf")
 			(effects
@@ -7018,7 +7018,7 @@
 				(justify left)
 			)
 		)
-		(pin "CEC_SRC_MON" output
+		(pin "CEC_A_MON" output
 			(at 228.6 137.16 180)
 			(uuid "33152240-27d2-46d4-83ab-015e4682e031")
 			(effects
@@ -7028,7 +7028,7 @@
 				(justify left)
 			)
 		)
-		(pin "CEC_SRC_PULLDOWN" input
+		(pin "CEC_A_PULLDOWN" input
 			(at 228.6 134.62 180)
 			(uuid "f27123f6-9aba-4aac-875a-fa7397fbddec")
 			(effects
@@ -7038,7 +7038,7 @@
 				(justify left)
 			)
 		)
-		(pin "HPD_SINK_ASSERT" input
+		(pin "HPD_B_ASSERT" input
 			(at 228.6 124.46 180)
 			(uuid "0a66b7bc-fe61-4a48-9337-0121db35a71e")
 			(effects
@@ -7048,7 +7048,7 @@
 				(justify left)
 			)
 		)
-		(pin "HPD_SRC_MON" output
+		(pin "HPD_A_MON" output
 			(at 228.6 116.84 180)
 			(uuid "efb182ba-04c4-4d27-9fb6-00aa08379d6e")
 			(effects

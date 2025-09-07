@@ -2023,7 +2023,7 @@
 		)
 		(uuid "0c22a53c-f226-4a6d-a1ae-414ab4ec907a")
 	)
-	(hierarchical_label "HPD_SRC_ASSERT"
+	(hierarchical_label "HPD_A_ASSERT"
 		(shape input)
 		(at 86.36 123.19 180)
 		(effects
@@ -2034,7 +2034,7 @@
 		)
 		(uuid "14ca43c0-9dd4-4b78-8cbd-b409e60dcecd")
 	)
-	(hierarchical_label "CEC_SRC_PULLDOWN"
+	(hierarchical_label "CEC_A_PULLDOWN"
 		(shape input)
 		(at 86.36 153.67 180)
 		(effects
@@ -2045,7 +2045,7 @@
 		)
 		(uuid "2b54be82-19af-49ed-b01b-1a78b9c45f38")
 	)
-	(hierarchical_label "CEC_SINK_PULLDOWN"
+	(hierarchical_label "CEC_B_PULLDOWN"
 		(shape input)
 		(at 238.76 153.67 0)
 		(effects
@@ -2078,7 +2078,7 @@
 		)
 		(uuid "577f354e-a4a5-48c8-baea-05dbc5065d0f")
 	)
-	(hierarchical_label "CEC_SRC_MON"
+	(hierarchical_label "CEC_A_MON"
 		(shape output)
 		(at 86.36 151.13 180)
 		(effects
@@ -2089,7 +2089,7 @@
 		)
 		(uuid "72beab71-941d-471e-80fc-8f4be2633fab")
 	)
-	(hierarchical_label "SCL_SRC_3V3"
+	(hierarchical_label "SCL_A_3V3"
 		(shape bidirectional)
 		(at 86.36 101.6 180)
 		(effects
@@ -2100,7 +2100,7 @@
 		)
 		(uuid "78043235-4b5c-4265-ae8e-989dd652f614")
 	)
-	(hierarchical_label "SCL_SINK_3V3"
+	(hierarchical_label "SCL_B_3V3"
 		(shape bidirectional)
 		(at 238.76 101.6 0)
 		(effects
@@ -2111,7 +2111,7 @@
 		)
 		(uuid "8275b02b-2019-4fa3-9ce4-0bdbaab320e6")
 	)
-	(hierarchical_label "HPD_SINK_MON"
+	(hierarchical_label "HPD_B_MON"
 		(shape output)
 		(at 238.76 125.73 0)
 		(effects
@@ -2122,7 +2122,7 @@
 		)
 		(uuid "84895901-1389-4e49-8a72-324c339d96dd")
 	)
-	(hierarchical_label "CEC_SINK_MON"
+	(hierarchical_label "CEC_B_MON"
 		(shape output)
 		(at 238.76 151.13 0)
 		(effects
@@ -2133,7 +2133,7 @@
 		)
 		(uuid "949f4413-7f6f-46f1-877e-e34987a0e7d9")
 	)
-	(hierarchical_label "SDA_SINK_3V3"
+	(hierarchical_label "SDA_B_3V3"
 		(shape bidirectional)
 		(at 238.76 78.74 0)
 		(effects
@@ -2144,7 +2144,7 @@
 		)
 		(uuid "a72d5ddb-820b-47cc-b819-c31064385499")
 	)
-	(hierarchical_label "HPD_SRC_MON"
+	(hierarchical_label "HPD_A_MON"
 		(shape output)
 		(at 86.36 125.73 180)
 		(effects
@@ -2155,7 +2155,7 @@
 		)
 		(uuid "b53769d4-fc48-4100-821c-876d93f994f7")
 	)
-	(hierarchical_label "SDA_SRC_3V3"
+	(hierarchical_label "SDA_A_3V3"
 		(shape bidirectional)
 		(at 86.36 78.74 180)
 		(effects
@@ -2188,7 +2188,7 @@
 		)
 		(uuid "d4e2bb4e-b3b0-42c5-b4e5-8d849b962b76")
 	)
-	(hierarchical_label "HPD_SINK_ASSERT"
+	(hierarchical_label "HPD_B_ASSERT"
 		(shape input)
 		(at 238.76 123.19 0)
 		(effects
@@ -3300,7 +3300,7 @@
 				(justify left top)
 			)
 		)
-		(pin "ARC_SINK" bidirectional
+		(pin "ARC_B" bidirectional
 			(at 187.96 69.85 270)
 			(uuid "478c0629-d6ec-44f3-a29e-8b05b959be0d")
 			(effects
@@ -3310,7 +3310,7 @@
 				(justify left)
 			)
 		)
-		(pin "ARC_SRC" bidirectional
+		(pin "ARC_A" bidirectional
 			(at 137.16 69.85 270)
 			(uuid "b18cf015-09bf-4987-bb38-e07e2386d1ba")
 			(effects
@@ -3320,7 +3320,7 @@
 				(justify left)
 			)
 		)
-		(pin "CEC_SINK" bidirectional
+		(pin "CEC_B" bidirectional
 			(at 194.31 69.85 270)
 			(uuid "76bfcbd6-19d1-498a-afc1-742d2477afdb")
 			(effects
@@ -3330,7 +3330,7 @@
 				(justify left)
 			)
 		)
-		(pin "CEC_SRC" bidirectional
+		(pin "CEC_A" bidirectional
 			(at 132.08 69.85 270)
 			(uuid "d5f496f8-19b5-4b34-94b2-57082e4cf2b4")
 			(effects
@@ -3350,7 +3350,7 @@
 				(justify right)
 			)
 		)
-		(pin "HPD_SINK" output
+		(pin "HPD_B" output
 			(at 185.42 69.85 270)
 			(uuid "b53e9088-bb34-492c-8b25-24d268473a5d")
 			(effects
@@ -3360,7 +3360,7 @@
 				(justify left)
 			)
 		)
-		(pin "HPD_SRC" input
+		(pin "HPD_A" input
 			(at 139.7 69.85 270)
 			(uuid "0feccbf3-9afd-4539-a848-0967a4d15b4b")
 			(effects
@@ -3370,7 +3370,7 @@
 				(justify left)
 			)
 		)
-		(pin "SCL_SINK" bidirectional
+		(pin "SCL_B" bidirectional
 			(at 179.07 69.85 270)
 			(uuid "256eb745-569a-4ad6-9c5d-8a99d86dbc23")
 			(effects
@@ -3380,7 +3380,7 @@
 				(justify left)
 			)
 		)
-		(pin "SCL_SRC" bidirectional
+		(pin "SCL_A" bidirectional
 			(at 146.05 69.85 270)
 			(uuid "64110a3c-ffe7-4b2e-aa0c-497d4856cff7")
 			(effects
@@ -3390,7 +3390,7 @@
 				(justify left)
 			)
 		)
-		(pin "SDA_SINK" bidirectional
+		(pin "SDA_B" bidirectional
 			(at 176.53 69.85 270)
 			(uuid "c6862c17-9894-4ef7-9778-7a86a46131d0")
 			(effects
@@ -3400,7 +3400,7 @@
 				(justify left)
 			)
 		)
-		(pin "SDA_SRC" bidirectional
+		(pin "SDA_A" bidirectional
 			(at 148.59 69.85 270)
 			(uuid "d88e72e0-6cff-4560-a56f-bf06769546c8")
 			(effects

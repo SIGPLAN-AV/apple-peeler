@@ -1344,7 +1344,7 @@
 		)
 		(uuid "e838f6b4-3ae8-4b16-a296-a402c7507b58")
 	)
-	(hierarchical_label "HPD_SINK"
+	(hierarchical_label "HPD_B"
 		(shape output)
 		(at 161.29 113.03 180)
 		(effects
@@ -1355,7 +1355,7 @@
 		)
 		(uuid "1c792b73-3069-45dd-9bbb-ccb9b1805a2c")
 	)
-	(hierarchical_label "ARC_SINK"
+	(hierarchical_label "ARC_B"
 		(shape bidirectional)
 		(at 161.29 110.49 180)
 		(effects
@@ -1366,7 +1366,7 @@
 		)
 		(uuid "26a91135-21ca-4a4c-8215-bd71cd809af3")
 	)
-	(hierarchical_label "SDA_SRC"
+	(hierarchical_label "SDA_A"
 		(shape bidirectional)
 		(at 132.08 105.41 0)
 		(effects
@@ -1377,7 +1377,7 @@
 		)
 		(uuid "2a418d4c-d60e-40cc-920e-e5bb673dd16b")
 	)
-	(hierarchical_label "HPD_SRC"
+	(hierarchical_label "HPD_A"
 		(shape input)
 		(at 132.08 113.03 0)
 		(effects
@@ -1388,7 +1388,7 @@
 		)
 		(uuid "375e118e-4897-4d26-aa94-4447f9cb94d4")
 	)
-	(hierarchical_label "CEC_SINK"
+	(hierarchical_label "CEC_B"
 		(shape bidirectional)
 		(at 161.29 97.79 180)
 		(effects
@@ -1410,7 +1410,7 @@
 		)
 		(uuid "5c0f8ad5-fc51-4674-89b8-2d6b86920b50")
 	)
-	(hierarchical_label "CEC_SRC"
+	(hierarchical_label "CEC_A"
 		(shape bidirectional)
 		(at 132.08 97.79 0)
 		(effects
@@ -1421,7 +1421,7 @@
 		)
 		(uuid "6d9deee0-388e-4996-ac17-ae08e0c5de4c")
 	)
-	(hierarchical_label "SDA_SINK"
+	(hierarchical_label "SDA_B"
 		(shape bidirectional)
 		(at 161.29 105.41 180)
 		(effects
@@ -1432,7 +1432,7 @@
 		)
 		(uuid "90995e0e-cac8-4914-a134-ff2fe234619e")
 	)
-	(hierarchical_label "ARC_SRC"
+	(hierarchical_label "ARC_A"
 		(shape bidirectional)
 		(at 132.08 110.49 0)
 		(effects
@@ -1443,7 +1443,7 @@
 		)
 		(uuid "b2e0e88e-b3e9-465a-8a48-d53c5ba077fa")
 	)
-	(hierarchical_label "SCL_SINK"
+	(hierarchical_label "SCL_B"
 		(shape bidirectional)
 		(at 161.29 102.87 180)
 		(effects
@@ -1454,7 +1454,7 @@
 		)
 		(uuid "c26ea4df-f53e-4b52-986c-10a9d49be5ed")
 	)
-	(hierarchical_label "SCL_SRC"
+	(hierarchical_label "SCL_A"
 		(shape bidirectional)
 		(at 132.08 102.87 0)
 		(effects
