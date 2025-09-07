@@ -961,35 +961,35 @@
     ],
     [
       "c11db6ac-c72c-4793-88d9-dc045557e97a",
-      "Bidir level shifter"
+      "Bidir level shifter 1"
     ],
     [
       "6e2f9ad3-6df3-44ff-a556-d7733fb95645",
-      "Bidir level shifter1"
+      "Bidir level shifter 2"
     ],
     [
       "ca35da65-fde1-4d0a-a76e-5585ef239d40",
-      "Bidir level shifter2"
+      "Bidir level shifter 3"
     ],
     [
       "c844b638-b828-4199-a808-926ce8acdcee",
-      "Bidir level shifter3"
+      "Bidir level shifter 4"
     ],
     [
       "745d0d17-7957-4c01-99cf-650fcabccc48",
-      "Pullup level shifter"
+      "Pullup level shifter 1"
     ],
     [
       "b2b37924-8e56-4803-af0c-337a40ac95aa",
-      "Pullup level shifter1"
+      "Pullup level shifter 2"
     ],
     [
       "207d6e2c-5657-4cae-9098-bf31bbf0eeb3",
-      "HPD manager1"
+      "HPD manager 2"
     ],
     [
       "566595e9-3b43-49bd-94a9-252623d78830",
-      "Pullup level shifter2"
+      "Pullup level shifter 3"
     ],
     [
       "9d425879-c049-4dfa-82be-004c8041dfbb",
@@ -1001,11 +1001,11 @@
     ],
     [
       "873bc460-d915-4de5-a067-1951ea6c9d40",
-      "Pullup level shifter3"
+      "Pullup level shifter 4"
     ],
     [
       "81932bd6-0e7a-4e3b-bdf1-28d2dccc0222",
-      "CEC interface"
+      "CEC interface 1"
     ],
     [
       "ad50c616-8b19-49c2-9202-d566f63fdad1",
@@ -1029,7 +1029,7 @@
     ],
     [
       "216077bc-1e97-451f-9a4f-0a4e0691e85e",
-      "HPD manager"
+      "HPD manager 1"
     ],
     [
       "9d425879-c049-4dfa-82be-004c8041dfbb",
@@ -1045,7 +1045,7 @@
     ],
     [
       "9898d91a-fb1c-440b-9509-02fc004394d7",
-      "CEC interface1"
+      "CEC interface 2"
     ],
     [
       "bb525200-3afc-44a4-bfe6-0148de1ee95c",

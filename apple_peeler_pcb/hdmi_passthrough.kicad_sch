@@ -3139,7 +3139,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "207d6e2c-5657-4cae-9098-bf31bbf0eeb3")
-		(property "Sheetname" "HPD manager1"
+		(property "Sheetname" "HPD manager 2"
 			(at 203.2 121.2084 0)
 			(effects
 				(font
@@ -3211,7 +3211,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "216077bc-1e97-451f-9a4f-0a4e0691e85e")
-		(property "Sheetname" "HPD manager"
+		(property "Sheetname" "HPD manager 1"
 			(at 90.17 121.2084 0)
 			(effects
 				(font
@@ -3434,7 +3434,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "566595e9-3b43-49bd-94a9-252623d78830")
-		(property "Sheetname" "Pullup level shifter2"
+		(property "Sheetname" "Pullup level shifter 3"
 			(at 90.17 132.6384 0)
 			(effects
 				(font
@@ -3558,7 +3558,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "6e2f9ad3-6df3-44ff-a556-d7733fb95645")
-		(property "Sheetname" "Bidir level shifter1"
+		(property "Sheetname" "Bidir level shifter 2"
 			(at 90.17 98.3484 0)
 			(effects
 				(font
@@ -3620,7 +3620,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "745d0d17-7957-4c01-99cf-650fcabccc48")
-		(property "Sheetname" "Pullup level shifter"
+		(property "Sheetname" "Pullup level shifter 1"
 			(at 90.17 86.9184 0)
 			(effects
 				(font
@@ -3682,7 +3682,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "81932bd6-0e7a-4e3b-bdf1-28d2dccc0222")
-		(property "Sheetname" "CEC interface"
+		(property "Sheetname" "CEC interface 1"
 			(at 90.17 147.8784 0)
 			(effects
 				(font
@@ -3754,7 +3754,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "873bc460-d915-4de5-a067-1951ea6c9d40")
-		(property "Sheetname" "Pullup level shifter3"
+		(property "Sheetname" "Pullup level shifter 4"
 			(at 90.17 165.6584 0)
 			(effects
 				(font
@@ -3816,7 +3816,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "9898d91a-fb1c-440b-9509-02fc004394d7")
-		(property "Sheetname" "CEC interface1"
+		(property "Sheetname" "CEC interface 2"
 			(at 203.2 147.8784 0)
 			(effects
 				(font
@@ -3888,7 +3888,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "b2b37924-8e56-4803-af0c-337a40ac95aa")
-		(property "Sheetname" "Pullup level shifter1"
+		(property "Sheetname" "Pullup level shifter 2"
 			(at 90.17 109.7784 0)
 			(effects
 				(font
@@ -3950,7 +3950,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "c11db6ac-c72c-4793-88d9-dc045557e97a")
-		(property "Sheetname" "Bidir level shifter"
+		(property "Sheetname" "Bidir level shifter 1"
 			(at 90.17 75.4884 0)
 			(effects
 				(font
@@ -4012,7 +4012,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "c844b638-b828-4199-a808-926ce8acdcee")
-		(property "Sheetname" "Bidir level shifter3"
+		(property "Sheetname" "Bidir level shifter 4"
 			(at 203.2 98.3484 0)
 			(effects
 				(font
@@ -4074,7 +4074,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "ca35da65-fde1-4d0a-a76e-5585ef239d40")
-		(property "Sheetname" "Bidir level shifter2"
+		(property "Sheetname" "Bidir level shifter 3"
 			(at 203.2 75.4884 0)
 			(effects
 				(font
