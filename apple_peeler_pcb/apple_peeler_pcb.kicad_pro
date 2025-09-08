@@ -724,6 +724,12 @@
       ],
       "Net-(J5-D--PadA7)": [
         "USB"
+      ],
+      "Net-(J7-D+-PadA6)": [
+        "USB"
+      ],
+      "Net-(J7-D--PadA7)": [
+        "USB"
       ]
     },
     "netclass_patterns": [
@@ -896,6 +902,42 @@
           "group_by": false,
           "label": "Part",
           "name": "Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purpose Pin5",
+          "name": "Purpose Pin5",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purpose Pin1",
+          "name": "Purpose Pin1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purpose Pin2",
+          "name": "Purpose Pin2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purpose Pin6",
+          "name": "Purpose Pin6",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purpose Pin4",
+          "name": "Purpose Pin4",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purpose Pin3",
+          "name": "Purpose Pin3",
           "show": false
         }
       ],

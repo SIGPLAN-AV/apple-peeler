@@ -938,7 +938,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c3ed4e6-e537-454e-8da8-26bd1817ddb0")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR029"
 			(at 167.64 100.33 0)
 			(effects
 				(font
@@ -989,19 +989,19 @@
 		(instances
 			(project "apple_peeler_pcb"
 				(path "/d5946b96-44a8-4a28-8641-19803e1510af/ab4760da-4146-4688-a275-418314974b55/6e2f9ad3-6df3-44ff-a556-d7733fb95645"
-					(reference "#PWR029")
+					(reference "#PWR031")
 					(unit 1)
 				)
 				(path "/d5946b96-44a8-4a28-8641-19803e1510af/ab4760da-4146-4688-a275-418314974b55/c11db6ac-c72c-4793-88d9-dc045557e97a"
-					(reference "#PWR027")
+					(reference "#PWR029")
 					(unit 1)
 				)
 				(path "/d5946b96-44a8-4a28-8641-19803e1510af/ab4760da-4146-4688-a275-418314974b55/c844b638-b828-4199-a808-926ce8acdcee"
-					(reference "#PWR033")
+					(reference "#PWR035")
 					(unit 1)
 				)
 				(path "/d5946b96-44a8-4a28-8641-19803e1510af/ab4760da-4146-4688-a275-418314974b55/ca35da65-fde1-4d0a-a76e-5585ef239d40"
-					(reference "#PWR031")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -1116,7 +1116,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f78f55f-b844-4dde-be6f-1c8a0143e6da")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR028"
 			(at 143.51 100.33 0)
 			(effects
 				(font
@@ -1167,19 +1167,19 @@
 		(instances
 			(project "apple_peeler_pcb"
 				(path "/d5946b96-44a8-4a28-8641-19803e1510af/ab4760da-4146-4688-a275-418314974b55/6e2f9ad3-6df3-44ff-a556-d7733fb95645"
-					(reference "#PWR028")
+					(reference "#PWR030")
 					(unit 1)
 				)
 				(path "/d5946b96-44a8-4a28-8641-19803e1510af/ab4760da-4146-4688-a275-418314974b55/c11db6ac-c72c-4793-88d9-dc045557e97a"
-					(reference "#PWR026")
+					(reference "#PWR028")
 					(unit 1)
 				)
 				(path "/d5946b96-44a8-4a28-8641-19803e1510af/ab4760da-4146-4688-a275-418314974b55/c844b638-b828-4199-a808-926ce8acdcee"
-					(reference "#PWR032")
+					(reference "#PWR034")
 					(unit 1)
 				)
 				(path "/d5946b96-44a8-4a28-8641-19803e1510af/ab4760da-4146-4688-a275-418314974b55/ca35da65-fde1-4d0a-a76e-5585ef239d40"
-					(reference "#PWR030")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
