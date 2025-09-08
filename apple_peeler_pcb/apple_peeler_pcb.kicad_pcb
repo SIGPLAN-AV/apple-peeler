@@ -38222,6 +38222,44 @@
 		(layer "Edge.Cuts")
 		(uuid "5e701d91-fe5a-4d32-94e6-3addb323c857")
 	)
+	(gr_text "SPAV"
+		(at 186.5 89.5 0)
+		(layer "F.Cu")
+		(uuid "b884501d-2245-453a-b69d-f1619da5001c")
+		(effects
+			(font
+				(size 6 6)
+				(thickness 1.3)
+				(bold yes)
+			)
+			(justify top)
+		)
+	)
+	(gr_text "SPAV"
+		(at 186.5 89.5 0)
+		(layer "F.Mask")
+		(uuid "53b87915-f9d6-4b9c-8c7a-7ad1c641a4b5")
+		(effects
+			(font
+				(size 6 6)
+				(thickness 1.3)
+				(bold yes)
+			)
+			(justify top)
+		)
+	)
+	(gr_text "APPLE PEELER"
+		(at 186.5 99 0)
+		(layer "F.SilkS")
+		(uuid "639b0091-e143-445c-8969-32baa206dd5f")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+		)
+	)
 	(segment
 		(start 211.1525 153.7175)
 		(end 211.685 154.25)
