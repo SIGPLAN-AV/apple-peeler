@@ -854,6 +854,12 @@
       "/USB/DP": [
         "USB"
       ],
+      "/USB/USB_SIDE_DN": [
+        "USB"
+      ],
+      "/USB/USB_SIDE_DP": [
+        "USB"
+      ],
       "Net-(J5-D+-PadA6)": [
         "USB"
       ],
