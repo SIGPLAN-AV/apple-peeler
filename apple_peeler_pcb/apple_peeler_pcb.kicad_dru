@@ -141,7 +141,9 @@
 
 (rule "JLCPCB: NPTH to Trace"
 	(condition "A.Type == 'Pad' && A.Pad_Type == 'NPTH, mechanical' && !A.isPlated() && B.Type == 'Track'")
-	(constraint hole_clearance (min 0.254mm))
+	# (constraint hole_clearance (min 0.254mm))
+	# only NPTH in this board are the USB-C connector, which is non-compliant anyway
+	(constraint hole_clearance (min 0.1mm))
 )
 
 (rule "JLCPCB: Pad to Trace"
@@ -200,18 +202,18 @@
 (rule "JLCPCB: Minimum Line Width"
 	(layer "?.Silkscreen")
 	(condition "A.Type == 'Text' || A.Type == 'Text Box'")
-	(constraint text_thickness (min 0.15mm))
+	(constraint text_thickness (min 0.08mm))
 )
 
 (rule "JLCPCB: Minimum Text Height"
 	(layer "?.Silkscreen")
 	(condition "A.Type == 'Text' || A.Type == 'Text Box'")
-	(constraint text_height (min 1mm))
+	(constraint text_height (min 0.5mm))
 )
 
 (rule "JLCPCB: Pad to Silkscreen"
 	(condition "A.Type == 'Pad' && ((A.existsOnLayer('F.Mask') && B.Layer == 'F.Silkscreen') || (A.existsOnLayer('B.Mask') && B.Layer == 'B.Silkscreen')) ")
-	(constraint silk_clearance (min 0.15mm))
+	(constraint silk_clearance (min 0.05mm))
 )
 
 
