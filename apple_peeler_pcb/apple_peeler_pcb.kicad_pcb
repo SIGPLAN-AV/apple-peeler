@@ -1651,7 +1651,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "aeec2d76-32fb-410d-a318-b7e6748243cd")
+			(uuid "fecb5102-d386-48d6-a4ad-8cac1087610b")
 		)
 		(pad "1" thru_hole circle
 			(at -1.697056 1.697056)
@@ -1663,7 +1663,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "aeec2d76-32fb-410d-a318-b7e6748243cd")
+			(uuid "38ec6427-ea89-4909-b966-edfc3d17c34f")
 		)
 		(pad "1" thru_hole circle
 			(at 0 -2.4)
@@ -1675,7 +1675,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "aeec2d76-32fb-410d-a318-b7e6748243cd")
+			(uuid "b82743bb-c95b-41c2-8dc5-0b0673111f91")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -1687,7 +1687,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "aeec2d76-32fb-410d-a318-b7e6748243cd")
+			(uuid "8f83d364-1283-4b9d-a3ac-1a28b45887a7")
 		)
 		(pad "1" thru_hole circle
 			(at 0 2.4)
@@ -1699,7 +1699,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "aeec2d76-32fb-410d-a318-b7e6748243cd")
+			(uuid "ef69bf6d-5d70-41c6-a7e2-5cb6d7bdb8fb")
 		)
 		(pad "1" thru_hole circle
 			(at 1.697056 -1.697056)
@@ -1711,7 +1711,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "aeec2d76-32fb-410d-a318-b7e6748243cd")
+			(uuid "36cc2289-daff-42bd-aed9-6e185a4d2ed8")
 		)
 		(pad "1" thru_hole circle
 			(at 1.697056 1.697056)
@@ -1723,7 +1723,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "aeec2d76-32fb-410d-a318-b7e6748243cd")
+			(uuid "64f18088-3b8f-46d2-8d88-66da61fd6573")
 		)
 		(pad "1" thru_hole circle
 			(at 2.4 0)
@@ -1735,7 +1735,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "aeec2d76-32fb-410d-a318-b7e6748243cd")
+			(uuid "5bb127b4-0d28-4f8b-bade-aae19cd0ab89")
 		)
 		(embedded_fonts no)
 	)
@@ -2657,7 +2657,7 @@
 			(net 2 "GND")
 			(pinfunction "MP")
 			(pintype "passive")
-			(uuid "7d4d028c-08de-4897-9e9b-a698487e8120")
+			(uuid "a8a35dd5-9f46-479d-bbc8-be1afc83a63d")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical.step"
@@ -2798,7 +2798,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "a6cf596c-1b7b-4e74-8488-54d55065448e")
+			(uuid "01a1da83-648a-467f-ae4f-c10479d30bc6")
 		)
 		(pad "1" thru_hole circle
 			(at -1.697056 1.697056)
@@ -2810,7 +2810,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "a6cf596c-1b7b-4e74-8488-54d55065448e")
+			(uuid "0f3880b0-d323-4234-8ed0-34a1dcfd0241")
 		)
 		(pad "1" thru_hole circle
 			(at 0 -2.4)
@@ -2822,7 +2822,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "a6cf596c-1b7b-4e74-8488-54d55065448e")
+			(uuid "2724cf34-5b34-4219-806b-6a545e8ca043")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -2834,7 +2834,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "a6cf596c-1b7b-4e74-8488-54d55065448e")
+			(uuid "b5058b49-6c92-48e7-9738-b1a479720eb7")
 		)
 		(pad "1" thru_hole circle
 			(at 0 2.4)
@@ -2846,7 +2846,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "a6cf596c-1b7b-4e74-8488-54d55065448e")
+			(uuid "183dae74-d88e-4a07-ab23-bd4170ec0532")
 		)
 		(pad "1" thru_hole circle
 			(at 1.697056 -1.697056)
@@ -2858,7 +2858,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "a6cf596c-1b7b-4e74-8488-54d55065448e")
+			(uuid "65865c02-9d5f-474a-bd8b-2da71184ab8d")
 		)
 		(pad "1" thru_hole circle
 			(at 1.697056 1.697056)
@@ -2870,7 +2870,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "a6cf596c-1b7b-4e74-8488-54d55065448e")
+			(uuid "03a8c4fb-c164-471e-a641-1322c38bb7e5")
 		)
 		(pad "1" thru_hole circle
 			(at 2.4 0)
@@ -2882,7 +2882,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "a6cf596c-1b7b-4e74-8488-54d55065448e")
+			(uuid "7c03504c-222a-471d-9157-2862d5a3d33a")
 		)
 		(embedded_fonts no)
 	)
@@ -3504,7 +3504,7 @@
 			(net 2 "GND")
 			(pinfunction "SH")
 			(pintype "passive")
-			(uuid "bcfbff94-e67c-4e12-845f-4ec070e7b83d")
+			(uuid "58e142a1-41f2-4191-8de6-d08f2fc9bae8")
 		)
 		(pad "SH" thru_hole oval
 			(at 3.435 -7.25)
@@ -3515,7 +3515,7 @@
 			(net 2 "GND")
 			(pinfunction "SH")
 			(pintype "passive")
-			(uuid "bcfbff94-e67c-4e12-845f-4ec070e7b83d")
+			(uuid "1f744775-b428-4d60-8423-d84b66024521")
 		)
 		(pad "SH" thru_hole oval
 			(at 3.435 7.25)
@@ -3526,7 +3526,7 @@
 			(net 2 "GND")
 			(pinfunction "SH")
 			(pintype "passive")
-			(uuid "bcfbff94-e67c-4e12-845f-4ec070e7b83d")
+			(uuid "0d6193c6-ea87-41dd-ae8e-aa49f70cee01")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_Video.3dshapes/HDMI_A_Molex_208658-1001_Horizontal.step"
@@ -5148,7 +5148,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "1e927fdb-3c09-4f1c-a475-d37e4cd7a792")
+			(uuid "d8aca508-a1db-491f-b483-5695aeeadbe4")
 		)
 		(pad "1" thru_hole circle
 			(at -1.697056 1.697056)
@@ -5160,7 +5160,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "1e927fdb-3c09-4f1c-a475-d37e4cd7a792")
+			(uuid "995d3e68-8663-48dd-8ac8-661cd9fbdbe4")
 		)
 		(pad "1" thru_hole circle
 			(at 0 -2.4)
@@ -5172,7 +5172,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "1e927fdb-3c09-4f1c-a475-d37e4cd7a792")
+			(uuid "ace752b9-eca7-44b1-9bb8-0c5db201aeed")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -5184,7 +5184,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "1e927fdb-3c09-4f1c-a475-d37e4cd7a792")
+			(uuid "af9c086c-a541-47ac-93fb-96c8e6ba8bb2")
 		)
 		(pad "1" thru_hole circle
 			(at 0 2.4)
@@ -5196,7 +5196,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "1e927fdb-3c09-4f1c-a475-d37e4cd7a792")
+			(uuid "517317e9-7b77-4ba2-896c-64c6da3dc8b7")
 		)
 		(pad "1" thru_hole circle
 			(at 1.697056 -1.697056)
@@ -5208,7 +5208,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "1e927fdb-3c09-4f1c-a475-d37e4cd7a792")
+			(uuid "9571f346-86a8-4083-b403-2f8a8c0d49cd")
 		)
 		(pad "1" thru_hole circle
 			(at 1.697056 1.697056)
@@ -5220,7 +5220,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "1e927fdb-3c09-4f1c-a475-d37e4cd7a792")
+			(uuid "94deddc0-73c1-4d6d-96f7-b86a0239ee3a")
 		)
 		(pad "1" thru_hole circle
 			(at 2.4 0)
@@ -5232,7 +5232,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "1e927fdb-3c09-4f1c-a475-d37e4cd7a792")
+			(uuid "e94f20f5-a673-4389-b297-3ba4e385a2a7")
 		)
 		(embedded_fonts no)
 	)
@@ -8916,7 +8916,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "34c98e30-6a5a-42ce-8e2e-b972d072816f")
+			(uuid "8ac0f700-9e0e-4dbd-a9fb-51be08cdd23b")
 		)
 		(pad "2" smd rect
 			(at -3 1.875 180)
@@ -8934,7 +8934,7 @@
 			(net 55 "Net-(R1-Pad2)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "07c80494-9354-473e-bfb9-b69aac856561")
+			(uuid "c84b77ae-4322-4e27-a290-87ceecb0eff0")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_Push_1P1T_XKB_TS-1187A.step"
@@ -14045,7 +14045,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "583d86df-6331-412d-9aea-6626f2672469")
+			(uuid "ac6fc97d-307f-49a2-9e84-5759fb1616b9")
 		)
 		(pad "1" thru_hole circle
 			(at -1.697056 1.697056)
@@ -14057,7 +14057,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "583d86df-6331-412d-9aea-6626f2672469")
+			(uuid "6af84b63-4343-4b31-85b9-45264d07fd21")
 		)
 		(pad "1" thru_hole circle
 			(at 0 -2.4)
@@ -14069,7 +14069,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "583d86df-6331-412d-9aea-6626f2672469")
+			(uuid "78d6261f-87c0-4045-bf5a-f2e4e891c8d4")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -14081,7 +14081,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "583d86df-6331-412d-9aea-6626f2672469")
+			(uuid "4d21be8f-f297-4e51-a562-bb320c4b7495")
 		)
 		(pad "1" thru_hole circle
 			(at 0 2.4)
@@ -14093,7 +14093,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "583d86df-6331-412d-9aea-6626f2672469")
+			(uuid "44b622f2-c4b4-4d6c-b977-9a2bb3e190ba")
 		)
 		(pad "1" thru_hole circle
 			(at 1.697056 -1.697056)
@@ -14105,7 +14105,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "583d86df-6331-412d-9aea-6626f2672469")
+			(uuid "3a2378a7-266d-4276-b247-fdc28f7cab75")
 		)
 		(pad "1" thru_hole circle
 			(at 1.697056 1.697056)
@@ -14117,7 +14117,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "583d86df-6331-412d-9aea-6626f2672469")
+			(uuid "5d9b2089-4b03-45a7-98d1-12556ce98e0e")
 		)
 		(pad "1" thru_hole circle
 			(at 2.4 0)
@@ -14129,7 +14129,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "583d86df-6331-412d-9aea-6626f2672469")
+			(uuid "36a3bb93-a615-4d3f-805f-4ef88f0747c9")
 		)
 		(embedded_fonts no)
 	)
@@ -17317,7 +17317,7 @@
 			(net 2 "GND")
 			(pinfunction "MP")
 			(pintype "passive")
-			(uuid "ce65a5e6-9269-4f95-9eab-67a9dd532e47")
+			(uuid "384b9e4e-b4ad-4aec-89ed-bef07d71681b")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical.step"
@@ -18843,7 +18843,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "5a5c7d0f-fce5-43f9-8302-6c9552562a1f")
+			(uuid "2ba02141-36dd-4dca-b7f5-7386ddae1c6e")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 -3.125 270)
@@ -18855,7 +18855,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "5a5c7d0f-fce5-43f9-8302-6c9552562a1f")
+			(uuid "cd8fb870-a4d0-46da-9688-e9048607ad27")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 1.075 270)
@@ -18867,7 +18867,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "5a5c7d0f-fce5-43f9-8302-6c9552562a1f")
+			(uuid "b8c20a8e-5133-4885-bc9e-01816d82ba63")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_G-Switch_GT-USB-7010ASV.step"
@@ -34237,7 +34237,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "b0a395b5-cdc1-4eb9-8c52-1a3f96649adb")
+			(uuid "11bda423-b203-494d-b240-0dbcbddb5548")
 		)
 		(pad "2" smd rect
 			(at -3 1.875)
@@ -34255,7 +34255,7 @@
 			(net 83 "/UI/USR_BTN")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "641cd15d-6fdc-4cd5-a878-a6396fdd31cc")
+			(uuid "ea1f258c-0677-4d3a-8109-9c813578d9a8")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_Push_1P1T_XKB_TS-1187A.step"
@@ -36124,7 +36124,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "fbcd1bab-039b-4dd4-8703-e881e27547b8")
+			(uuid "4cc4ea57-fcd0-4bc7-8266-36f068959893")
 		)
 		(pad "2" smd rect
 			(at -3 1.875 180)
@@ -36142,7 +36142,7 @@
 			(net 67 "Net-(U2-RUN)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "7f835e04-3f78-45f4-8816-a33ae982b708")
+			(uuid "da0dac1a-cd16-49d8-a12d-eff84cb7d0ba")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_Push_1P1T_XKB_TS-1187A.step"
@@ -38280,7 +38280,7 @@
 			(net 2 "GND")
 			(pinfunction "SH")
 			(pintype "passive")
-			(uuid "4d5ccdf5-b693-4ba2-ac08-031051f307b5")
+			(uuid "497d0ebe-1f2e-46f0-bb4f-f8eeb1d4d337")
 		)
 		(pad "SH" thru_hole oval
 			(at 3.435 -7.25 180)
@@ -38291,7 +38291,7 @@
 			(net 2 "GND")
 			(pinfunction "SH")
 			(pintype "passive")
-			(uuid "4d5ccdf5-b693-4ba2-ac08-031051f307b5")
+			(uuid "144e73ce-d242-4acf-93e5-346779c60f3f")
 		)
 		(pad "SH" thru_hole oval
 			(at 3.435 7.25 180)
@@ -38302,7 +38302,7 @@
 			(net 2 "GND")
 			(pinfunction "SH")
 			(pintype "passive")
-			(uuid "4d5ccdf5-b693-4ba2-ac08-031051f307b5")
+			(uuid "49f15195-a8f1-4518-9d1a-e79bb48a7667")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_Video.3dshapes/HDMI_A_Molex_208658-1001_Horizontal.step"
