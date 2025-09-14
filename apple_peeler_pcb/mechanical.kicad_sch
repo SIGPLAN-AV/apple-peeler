@@ -300,7 +300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "096b21de-52e6-4abd-9de0-ef959a989a2c")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR0100"
 			(at 124.46 116.84 0)
 			(effects
 				(font
@@ -351,7 +351,7 @@
 		(instances
 			(project "apple_peeler_pcb"
 				(path "/d5946b96-44a8-4a28-8641-19803e1510af/b9409414-8524-4d15-9b9b-f9265fa4736a"
-					(reference "#PWR099")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -367,7 +367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "136005da-9ea2-475c-a687-9cda9783cdf9")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR0102"
 			(at 148.59 116.84 0)
 			(effects
 				(font
@@ -418,7 +418,7 @@
 		(instances
 			(project "apple_peeler_pcb"
 				(path "/d5946b96-44a8-4a28-8641-19803e1510af/b9409414-8524-4d15-9b9b-f9265fa4736a"
-					(reference "#PWR0101")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -586,7 +586,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "885875d8-27f7-45d7-9b79-d1ef65587264")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR099"
 			(at 124.46 104.14 0)
 			(effects
 				(font
@@ -637,7 +637,7 @@
 		(instances
 			(project "apple_peeler_pcb"
 				(path "/d5946b96-44a8-4a28-8641-19803e1510af/b9409414-8524-4d15-9b9b-f9265fa4736a"
-					(reference "#PWR098")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -729,7 +729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f86280b1-bdc7-4019-93ce-9f70d5ca8969")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR0101"
 			(at 148.59 104.14 0)
 			(effects
 				(font
@@ -780,7 +780,7 @@
 		(instances
 			(project "apple_peeler_pcb"
 				(path "/d5946b96-44a8-4a28-8641-19803e1510af/b9409414-8524-4d15-9b9b-f9265fa4736a"
-					(reference "#PWR0100")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)

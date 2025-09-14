@@ -588,7 +588,7 @@
 				)
 			)
 			(property "Purpose Pin2" "PIN 2"
-				(at 0 -2.54 0)
+				(at 0 0 0)
 				(do_not_autoplace)
 				(effects
 					(font
@@ -598,7 +598,7 @@
 				)
 			)
 			(property "Purpose Pin3" "PIN 3"
-				(at 0 0 0)
+				(at 0 -2.54 0)
 				(do_not_autoplace)
 				(effects
 					(font
@@ -2651,12 +2651,11 @@
 		(dnp yes)
 		(uuid "198669bc-e348-4bf6-af50-2d3553b140f6")
 		(property "Reference" "J5"
-			(at 170.18 142.2399 90)
+			(at 170.18 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "Header_01x06"
@@ -2705,8 +2704,8 @@
 				(justify left)
 			)
 		)
-		(property "Purpose Pin2" "SCL_B"
-			(at 177.8 138.43 0)
+		(property "Purpose Pin2" "SDA_B"
+			(at 175.26 138.43 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2715,8 +2714,8 @@
 				(justify left)
 			)
 		)
-		(property "Purpose Pin3" "SDA_B"
-			(at 175.26 138.43 0)
+		(property "Purpose Pin3" "SCL_B"
+			(at 177.8 138.43 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -2745,7 +2744,7 @@
 				(justify left)
 			)
 		)
-		(property "Purpose Pin6" "ARC"
+		(property "Purpose Pin6" "P14"
 			(at 185.42 138.43 0)
 			(do_not_autoplace yes)
 			(effects
@@ -2756,12 +2755,11 @@
 			)
 		)
 		(property "Purpose" "TST_B"
-			(at 170.18 144.7799 90)
+			(at 170.18 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "MPN" "Header_01x06"
@@ -3008,12 +3006,11 @@
 		(dnp yes)
 		(uuid "dd4d8799-6dab-4fa3-9a0f-9b0b171dcef1")
 		(property "Reference" "J4"
-			(at 93.98 142.2399 90)
+			(at 93.98 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "Header_01x06"
@@ -3062,8 +3059,8 @@
 				(justify left)
 			)
 		)
-		(property "Purpose Pin2" "HPD_A"
-			(at 86.36 138.43 0)
+		(property "Purpose Pin2" "+5V"
+			(at 88.9 138.43 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3072,8 +3069,8 @@
 				(justify left)
 			)
 		)
-		(property "Purpose Pin3" "+5V"
-			(at 88.9 138.43 0)
+		(property "Purpose Pin3" "HPD_A"
+			(at 86.36 138.43 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3113,12 +3110,11 @@
 			)
 		)
 		(property "Purpose" "TST_A"
-			(at 93.98 144.7799 90)
+			(at 93.98 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "MPN" "Header_01x06"
