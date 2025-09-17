@@ -2245,7 +2245,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "HYC10-HDMIA19-600B"
+		(property "Value" "HDMI-001 19PCBTP"
 			(at 194.31 135.89 0)
 			(effects
 				(font
@@ -2281,7 +2281,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C341098"
+		(property "LCSC" "C138388"
 			(at 207.01 95.25 0)
 			(effects
 				(font
@@ -2387,7 +2387,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "HYC10-HDMIA19-600B"
+		(property "Value" "HDMI-001 19PCBTP"
 			(at 67.31 135.89 0)
 			(effects
 				(font
@@ -2423,7 +2423,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C341098"
+		(property "LCSC" "C138388"
 			(at 59.69 95.25 0)
 			(effects
 				(font
