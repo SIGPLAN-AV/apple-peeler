@@ -8722,7 +8722,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2μH"
+		(property "Value" "4.7μH"
 			(at 0 3.45 270)
 			(layer "F.Fab")
 			(uuid "81c0def7-e341-48b8-bfdd-0c5f9305159d")
@@ -8757,7 +8757,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C279946"
+		(property "LCSC" "C43183"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8770,7 +8770,7 @@
 				)
 			)
 		)
-		(property "MPN" "SWPA5020S2R2MT"
+		(property "MPN" "SWPA5020S4R7MT"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18796,7 +18796,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5kΩ"
+		(property "Value" "15kΩ"
 			(at 0 1.65 90)
 			(layer "F.Fab")
 			(uuid "8c65d047-0d53-478e-a467-14aa425981e5")
@@ -18831,7 +18831,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4310"
+		(property "LCSC" "C17475"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18844,7 +18844,7 @@
 				)
 			)
 		)
-		(property "MPN" "R 1.5kΩ 125mW 0805"
+		(property "MPN" "R 15kΩ 125mW 0805"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29819,7 +29819,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS562242"
+		(property "Value" "TPS563206"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "64d8c0b8-d962-4e9e-90a1-17217569720d")
@@ -29854,7 +29854,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C19272253"
+		(property "LCSC" "C22427434"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29867,7 +29867,7 @@
 				)
 			)
 		)
-		(property "MPN" "TPS562242DRLR"
+		(property "MPN" "TPS563206DRLR"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
