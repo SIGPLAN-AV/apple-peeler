@@ -2096,7 +2096,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.5kΩ"
+		(property "Value" "15kΩ"
 			(at 152.4 87.6299 0)
 			(effects
 				(font
@@ -2132,7 +2132,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C4310"
+		(property "LCSC" "C17475"
 			(at 154.94 86.36 0)
 			(effects
 				(font
@@ -2141,7 +2141,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R 1.5kΩ 125mW 0805"
+		(property "MPN" "R 15kΩ 125mW 0805"
 			(at 154.94 86.36 0)
 			(effects
 				(font
@@ -2183,7 +2183,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS562242"
+		(property "Value" "TPS563206"
 			(at 121.92 74.93 0)
 			(effects
 				(font
@@ -2219,7 +2219,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C19272253"
+		(property "LCSC" "C22427434"
 			(at 121.92 82.55 0)
 			(effects
 				(font
@@ -2228,7 +2228,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TPS562242DRLR"
+		(property "MPN" "TPS563206DRLR"
 			(at 121.92 82.55 0)
 			(effects
 				(font
@@ -3598,7 +3598,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2μH"
+		(property "Value" "4.7μH"
 			(at 147.32 77.47 90)
 			(effects
 				(font
@@ -3633,7 +3633,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C279946"
+		(property "LCSC" "C43183"
 			(at 147.32 80.01 90)
 			(effects
 				(font
@@ -3642,7 +3642,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SWPA5020S2R2MT"
+		(property "MPN" "SWPA5020S4R7MT"
 			(at 147.32 80.01 90)
 			(effects
 				(font
