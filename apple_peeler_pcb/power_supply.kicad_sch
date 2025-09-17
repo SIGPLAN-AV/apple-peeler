@@ -2096,7 +2096,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.2kΩ"
+		(property "Value" "1.5kΩ"
 			(at 152.4 87.6299 0)
 			(effects
 				(font
@@ -2132,7 +2132,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17767"
+		(property "LCSC" "C4310"
 			(at 154.94 86.36 0)
 			(effects
 				(font
@@ -2141,7 +2141,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R 6.2kΩ 125mW 0805"
+		(property "MPN" "R 1.5kΩ 125mW 0805"
 			(at 154.94 86.36 0)
 			(effects
 				(font
@@ -2625,7 +2625,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "39kΩ"
+		(property "Value" "30kΩ"
 			(at 152.4 96.5199 0)
 			(effects
 				(font
@@ -2661,7 +2661,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25826"
+		(property "LCSC" "C17621"
 			(at 154.94 95.25 0)
 			(effects
 				(font
@@ -2670,7 +2670,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R 39kΩ 125mW 0805"
+		(property "MPN" "R 30kΩ 125mW 0805"
 			(at 154.94 95.25 0)
 			(effects
 				(font
@@ -3606,7 +3606,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Taiyo-Yuden_MD-5050"
+		(property "Footprint" "Inductor_SMD:L_Sunlord_SWPA5020S"
 			(at 147.32 80.01 0)
 			(effects
 				(font
@@ -3633,7 +3633,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C702825"
+		(property "LCSC" "C56803"
 			(at 147.32 80.01 90)
 			(effects
 				(font
@@ -3642,7 +3642,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "BWVF005050201R5T00"
+		(property "MPN" "SWPA5020S1R5MT"
 			(at 147.32 80.01 90)
 			(effects
 				(font
