@@ -3598,7 +3598,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5μH"
+		(property "Value" "2.2μH"
 			(at 147.32 77.47 90)
 			(effects
 				(font
@@ -3633,7 +3633,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C56803"
+		(property "LCSC" "C279946"
 			(at 147.32 80.01 90)
 			(effects
 				(font
@@ -3642,7 +3642,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SWPA5020S1R5MT"
+		(property "MPN" "SWPA5020S2R2MT"
 			(at 147.32 80.01 90)
 			(effects
 				(font
