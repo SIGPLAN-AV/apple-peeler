@@ -1373,7 +1373,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0612236b-936c-4c91-be8b-0838ef01d9e1")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR067"
 			(at 143.51 132.08 0)
 			(effects
 				(font
@@ -1424,7 +1424,7 @@
 		(instances
 			(project "apple_peeler_pcb"
 				(path "/d5946b96-44a8-4a28-8641-19803e1510af/755a6c0d-ab83-4668-9075-6ff3f25fd8c2"
-					(reference "#PWR069")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -1439,7 +1439,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10271c8d-5b16-404c-8ffc-0c3eec9c6f63")
-		(property "Reference" "R40"
+		(property "Reference" "R41"
 			(at 198.12 92.71 90)
 			(effects
 				(font
@@ -1509,7 +1509,7 @@
 		(instances
 			(project "apple_peeler_pcb"
 				(path "/d5946b96-44a8-4a28-8641-19803e1510af/755a6c0d-ab83-4668-9075-6ff3f25fd8c2"
-					(reference "R40")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -1524,7 +1524,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4b997a54-7e38-491a-858e-54458fabaffa")
-		(property "Reference" "R41"
+		(property "Reference" "R42"
 			(at 198.12 97.79 90)
 			(effects
 				(font
@@ -1594,7 +1594,7 @@
 		(instances
 			(project "apple_peeler_pcb"
 				(path "/d5946b96-44a8-4a28-8641-19803e1510af/755a6c0d-ab83-4668-9075-6ff3f25fd8c2"
-					(reference "R41")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -1610,7 +1610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5883a4a2-2993-447b-96e7-ed2a8db7b1dd")
-		(property "Reference" "R39"
+		(property "Reference" "R40"
 			(at 157.48 111.7599 0)
 			(effects
 				(font
@@ -1682,7 +1682,7 @@
 		(instances
 			(project "apple_peeler_pcb"
 				(path "/d5946b96-44a8-4a28-8641-19803e1510af/755a6c0d-ab83-4668-9075-6ff3f25fd8c2"
-					(reference "R39")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -1698,7 +1698,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67d44b1d-4e5f-4b05-9c92-363701c8507e")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR066"
 			(at 123.19 132.08 0)
 			(effects
 				(font
@@ -1749,7 +1749,7 @@
 		(instances
 			(project "apple_peeler_pcb"
 				(path "/d5946b96-44a8-4a28-8641-19803e1510af/755a6c0d-ab83-4668-9075-6ff3f25fd8c2"
-					(reference "#PWR068")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -1765,7 +1765,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b8bfb3f-67ef-446c-91dc-f9cb946d4f67")
-		(property "Reference" "R38"
+		(property "Reference" "R39"
 			(at 146.05 111.7599 0)
 			(effects
 				(font
@@ -1837,7 +1837,7 @@
 		(instances
 			(project "apple_peeler_pcb"
 				(path "/d5946b96-44a8-4a28-8641-19803e1510af/755a6c0d-ab83-4668-9075-6ff3f25fd8c2"
-					(reference "R38")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -1853,7 +1853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95120e20-0ab3-4edc-9665-14cfbf5846e8")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR065"
 			(at 115.57 132.08 0)
 			(effects
 				(font
@@ -1904,7 +1904,7 @@
 		(instances
 			(project "apple_peeler_pcb"
 				(path "/d5946b96-44a8-4a28-8641-19803e1510af/755a6c0d-ab83-4668-9075-6ff3f25fd8c2"
-					(reference "#PWR067")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -1988,7 +1988,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7862fe3-e897-4ba4-95fd-a6aaf940dce3")
-		(property "Reference" "J8"
+		(property "Reference" "J6"
 			(at 123.19 74.93 0)
 			(effects
 				(font
@@ -2103,7 +2103,7 @@
 		(instances
 			(project ""
 				(path "/d5946b96-44a8-4a28-8641-19803e1510af/755a6c0d-ab83-4668-9075-6ff3f25fd8c2"
-					(reference "J8")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -2119,7 +2119,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e931a357-09dc-4917-84d1-77ee6326dc76")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR068"
 			(at 154.94 132.08 0)
 			(effects
 				(font
@@ -2170,7 +2170,7 @@
 		(instances
 			(project "apple_peeler_pcb"
 				(path "/d5946b96-44a8-4a28-8641-19803e1510af/755a6c0d-ab83-4668-9075-6ff3f25fd8c2"
-					(reference "#PWR070")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
