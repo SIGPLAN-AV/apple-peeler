@@ -2,5 +2,4 @@
   (version 7)
   (lib (name "Connector_HDMI")(type "KiCad")(uri "${KIPRJMOD}/../kicad_libs/hdmi.kicad_sym")(options "")(descr ""))
   (lib (name "conn")(type "KiCad")(uri "${KIPRJMOD}/../kicad_libs/conn.kicad_sym")(options "")(descr ""))
-  (lib (name "led")(type "KiCad")(uri "/home/human/s/git/fosdem/apple_peeler/kicad_libs/led.kicad_sym")(options "")(descr ""))
 )

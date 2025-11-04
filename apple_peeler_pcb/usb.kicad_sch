@@ -1439,7 +1439,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10271c8d-5b16-404c-8ffc-0c3eec9c6f63")
-		(property "Reference" "R41"
+		(property "Reference" "R42"
 			(at 198.12 97.79 90)
 			(effects
 				(font
@@ -1509,7 +1509,7 @@
 		(instances
 			(project "apple_peeler_pcb"
 				(path "/d5946b96-44a8-4a28-8641-19803e1510af/755a6c0d-ab83-4668-9075-6ff3f25fd8c2"
-					(reference "R41")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -1524,7 +1524,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4b997a54-7e38-491a-858e-54458fabaffa")
-		(property "Reference" "R42"
+		(property "Reference" "R41"
 			(at 198.12 92.71 90)
 			(effects
 				(font
@@ -1594,7 +1594,7 @@
 		(instances
 			(project "apple_peeler_pcb"
 				(path "/d5946b96-44a8-4a28-8641-19803e1510af/755a6c0d-ab83-4668-9075-6ff3f25fd8c2"
-					(reference "R42")
+					(reference "R41")
 					(unit 1)
 				)
 			)
