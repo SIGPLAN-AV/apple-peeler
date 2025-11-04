@@ -2921,6 +2921,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "NOTE: GPIO24 is used by\nthe bootloader for VBUS\ndetection, but I am too\nlazy to connect that\nso use the bootloader only\nwith HDMI disconnected"
+		(exclude_from_sim no)
+		(at 175.26 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "085a2baf-eddf-4442-8fb5-223987b50c84")
+	)
 	(junction
 		(at 83.82 85.09)
 		(diameter 0)
